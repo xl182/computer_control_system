@@ -1,0 +1,9 @@
+queue.c:5:5:push	1
+queue.c:12:10:get	1
+queue.c:16:10:get_tail	1
+queue.c:20:10:pop_head	1
+queue.c:29:10:get_average	1
+queue.c:35:10:get_val	1
+queue.c:39:6:set_val	1
+queue.c:44:6:init_queue	1
+queue.c:60:6:reset_queue	1

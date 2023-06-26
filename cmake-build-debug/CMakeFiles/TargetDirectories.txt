@@ -1,0 +1,3 @@
+D:/STM32/Project/computer_control_system/cmake-build-debug/CMakeFiles/computer_control_system.elf.dir
+D:/STM32/Project/computer_control_system/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/STM32/Project/computer_control_system/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+callback.c:12:6:HAL_ADC_ConvCpltCallback	2
+callback.c:18:6:HAL_TIM_PeriodElapsedCallback	4
+callback.c:45:6:HAL_GPIO_EXTI_Callback	7

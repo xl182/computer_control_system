@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/STM32/Project/computer_control_system/Core/Startup/startup_stm32f103vctx.s
+
+D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_bitreversal2.S
+

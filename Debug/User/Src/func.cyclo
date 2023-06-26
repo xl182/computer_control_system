@@ -1,0 +1,2 @@
+func.c:11:6:set_heat_level	1
+func.c:17:6:refresh_adc	3

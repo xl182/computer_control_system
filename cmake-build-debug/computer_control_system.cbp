@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="computer_control_system"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/STM32/Project/computer_control_system/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="computer_control_system.elf">
+				<Option output="D:/STM32/Project/computer_control_system/cmake-build-debug/computer_control_system.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/STM32/Project/computer_control_system/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add option="-DARM_MATH_CM3"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Core/Inc"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="D:/STM32/Project/computer_control_system/User/Inc"/>
+					<Add directory="D:/STM32/Project/computer_control_system/DSP_LIB/Include"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 computer_control_system.elf"/>
+					<CompileFile command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="computer_control_system.elf/fast">
+				<Option output="D:/STM32/Project/computer_control_system/cmake-build-debug/computer_control_system.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/STM32/Project/computer_control_system/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add option="-DARM_MATH_CM3"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Core/Inc"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include"/>
+					<Add directory="D:/STM32/Project/computer_control_system/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="D:/STM32/Project/computer_control_system/User/Inc"/>
+					<Add directory="D:/STM32/Project/computer_control_system/DSP_LIB/Include"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 computer_control_system.elf/fast"/>
+					<CompileFile command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/STM32/Project/computer_control_system/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/STM32/Project/computer_control_system/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/computer_control_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/adc.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/dma.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/gpio.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/main.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/spi.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/stm32f1xx_it.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/tim.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/usart.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/adc.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/dma.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/gpio.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/main.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/spi.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/stm32f1xx_it.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/syscalls.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/sysmem.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/system_stm32f1xx.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/tim.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/usart.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Core/Startup/startup_stm32f103vctx.s">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Include/arm_common_tables.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Include/arm_const_structs.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Include/arm_math.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_abs_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_abs_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_abs_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_abs_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_add_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_add_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_add_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_add_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_dot_prod_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_dot_prod_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_dot_prod_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_dot_prod_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_mult_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_mult_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_mult_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_mult_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_negate_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_negate_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_negate_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_negate_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_offset_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_offset_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_offset_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_offset_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_scale_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_scale_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_scale_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_scale_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_shift_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_shift_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_shift_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_sub_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_sub_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_sub_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_sub_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/CommonTables/arm_common_tables.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/CommonTables/arm_const_structs.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ControllerFunctions/arm_pid_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ControllerFunctions/arm_pid_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ControllerFunctions/arm_pid_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ControllerFunctions/arm_pid_reset_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ControllerFunctions/arm_pid_reset_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ControllerFunctions/arm_pid_reset_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ControllerFunctions/arm_sin_cos_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/ControllerFunctions/arm_sin_cos_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FastMathFunctions/arm_cos_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FastMathFunctions/arm_cos_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FastMathFunctions/arm_cos_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FastMathFunctions/arm_sin_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FastMathFunctions/arm_sin_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FastMathFunctions/arm_sin_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FastMathFunctions/arm_sqrt_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FastMathFunctions/arm_sqrt_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df2T_f64.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f64.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_fast_opt_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_fast_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_fast_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_opt_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_opt_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_fast_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_fast_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_opt_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_opt_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_conv_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_correlate_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_correlate_fast_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_correlate_fast_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_correlate_opt_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_correlate_opt_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_correlate_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_correlate_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_correlate_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_fast_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_fast_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_init_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_init_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/FilteringFunctions/arm_lms_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_add_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_add_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_add_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_cmplx_mult_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_cmplx_mult_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_cmplx_mult_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_inverse_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_inverse_f64.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_mult_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_mult_fast_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_mult_fast_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_mult_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_mult_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_scale_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_scale_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_scale_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_sub_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_sub_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_sub_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_trans_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_trans_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/MatrixFunctions/arm_mat_trans_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_max_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_max_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_max_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_max_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_mean_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_mean_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_mean_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_mean_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_min_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_min_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_min_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_min_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_power_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_power_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_power_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_power_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_rms_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_rms_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_rms_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_std_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_std_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_std_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_var_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_var_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/StatisticsFunctions/arm_var_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_copy_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_copy_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_copy_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_copy_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_fill_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_fill_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_fill_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_fill_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_float_to_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_float_to_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_float_to_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_q15_to_float.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_q15_to_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_q15_to_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_q31_to_float.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_q31_to_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_q31_to_q7.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_q7_to_float.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_q7_to_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/SupportFunctions/arm_q7_to_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_bitreversal.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_bitreversal2.S">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_cfft_radix8_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_dct4_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_dct4_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_dct4_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_dct4_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_dct4_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_dct4_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_rfft_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_rfft_fast_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_rfft_fast_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_rfft_init_f32.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_rfft_init_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_rfft_init_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_rfft_q15.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_rfft_q31.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/CMSIS/LICENSE.txt">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Middlewares/ST/ARM/DSP/Inc/arm_math.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM3l_math.a">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/STM32F103VCTX_FLASH.ld">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Inc/callback.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Inc/font.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Inc/func.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Inc/lcd.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Inc/queue.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Inc/user.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Src/callback.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Src/func.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Src/lcd.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Src/queue.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Src/user.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

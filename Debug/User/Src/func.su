@@ -1,0 +1,2 @@
+../User/Src/func.c:11:6:set_heat_level	16	static
+../User/Src/func.c:17:6:refresh_adc	40	static

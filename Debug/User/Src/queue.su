@@ -1,0 +1,9 @@
+../User/Src/queue.c:5:5:push	16	static
+../User/Src/queue.c:12:10:get	16	static
+../User/Src/queue.c:16:10:get_tail	16	static
+../User/Src/queue.c:20:10:pop_head	24	static
+../User/Src/queue.c:29:10:get_average	24	static
+../User/Src/queue.c:35:10:get_val	16	static
+../User/Src/queue.c:39:6:set_val	24	static
+../User/Src/queue.c:44:6:init_queue	16	static
+../User/Src/queue.c:60:6:reset_queue	16	static
