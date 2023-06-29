@@ -25,6 +25,7 @@
 *****************************************************************************/
 #include "main.h"
 
+
 #define u8 uint8_t
 #define u16 uint16_t
 #define u32 uint32_t
@@ -35,10 +36,7 @@
 #define LCD_DIR           4                 // 四种显示方向，参数：1、2、3、4
 //  结束 移植修改 ************************************************************
 
-
-
-
-
+extern char map[LCD_WIDTH][LCD_HEIGHT];
 /*****************************************************************************
  ** 颜色定义， 移植时不用修改
 ****************************************************************************/
@@ -79,11 +77,13 @@ void LCD_Image(u16 x, u16 y, u16 width, u16 height, const u8 *image);       // �
 // 任意字符、汉字显示：字符数据在font.h文件中，汉字数据在W25Q128文件中，适合任意汉字输出；宋体：12、16、24、32号
 void
 LCD_String(u16 x, u16 y, char *pFont, u8 size, u32 fColor, u32 bColor);  // 显示中英字符串；左上角坐标x, 左上角坐标y, 字库缓存地址，字号大小，字色，底色
-
+void
+mLCD_String(u16 x, u16 y, char *pFont, u8 size, u32 fColor, u32 bColor);  // 显示中英字符串；左上角坐标x, 左上角坐标y, 字库缓存地址，字号大小，字色，底色
 void drawPoint(u16 x, u16 y, u16 color);
 
 // 特定汉字显示:字库数据在font文件中.只能保存少量字库，适合固定输出
-void LCD_Chinese(u32 x, u32 y, u8 index, u8 size, u16 fColor, u16 bColor);  // 显示1个16号汉字；左上角坐标x, 左上角坐标y, 字库数据在缓存中的位置，字色，底色
+void
+LCD_Chinese(u32 x, u32 y, u8 index, u8 size, u16 fColor, u16 bColor);  // 显示1个16号汉字；左上角坐标x, 左上角坐标y, 字库数据在缓存中的位置，字色，底色
 void
 LCD_Chinese32ForFile(u32 x, u32 y, u8 index, u16 fColor, u16 bColor);  // 显示1个32号汉字；左上角坐标x, 左上角坐标y, 字库数据在缓存中的位置，字色，底色
 //void LCD_GUI(void);

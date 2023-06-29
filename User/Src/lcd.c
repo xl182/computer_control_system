@@ -38,6 +38,7 @@
 #define LCD_RES_HIGH LCD_RES_GPIO_Port->BSRR = LCD_RES_Pin
 
 
+char map[LCD_WIDTH][LCD_HEIGHT] = {0};
 /*****************************************************************************
  ** 本地变量
  *****************************************************************************/
@@ -301,8 +302,11 @@ void setCursor(u16 xStart, u16 yStart, u16 xEnd, u16 yEnd) {
 返回值：无
 *************************************************/
 void drawPoint(u16 x, u16 y, u16 color) {
-    setCursor(x, y, x, y);      //设置光标位置
-    sendShort(color);
+    if (map[x][y] != color) {
+        map[x][y] = color;
+        setCursor(x, y, x, y);      //设置光标位置
+        sendShort(color);
+    }
 }
 
 /******************************************************************
@@ -518,8 +522,11 @@ void drawAscii(u16 x, u16 y, u8 num, u8 size, u32 fColor, u32 bColor) {
         else return;                                   // 没有的字库
 
         for (u8 t1 = 0; t1 < 8; t1++) {
-            if (temp & 0x80) drawPoint(x, y, fColor);  // 字体 画点
-            else drawPoint(x, y, bColor);  // 背景 画点
+            if (temp & 0x80) {
+                drawPoint(x, y, fColor);  // 字体 画点
+            } else {
+                drawPoint(x, y, bColor);
+            } // 背景 画点
             temp <<= 1;
             y++;
             if (y >= xLCD.height) return;               // 超出屏幕高度(底)
@@ -610,7 +617,8 @@ void drawGBK(u16 x, u16 y, u8 *font, u8 size, u32 fColor, u32 bColor) {
  * 备  注： 魔女开发板团队  资料存放Q群：262901124        最后修改_2020年05月1８日
  ******************************************************************************/
 void LCD_String(u16 x, u16 y, char *pFont, u8 size, u32 fColor, u32 bColor) {
-    if (xLCD.InitOK == 0) return;
+    if (xLCD.InitOK == 0)
+        return;
 
     u16 xStart = x;
 
@@ -640,6 +648,81 @@ void LCD_String(u16 x, u16 y, char *pFont, u8 size, u32 fColor, u32 bColor) {
             // drawGBK(x, y, (u8 *) pFont, size, fColor, bColor);
             pFont = pFont + 2;          // 下一个要显示的数据在内存中的位置
             x = x + size;                 // 下一个要显示的数据在屏幕上的X位置
+        }
+    }
+}
+
+void mLCD_String(u16 x, u16 y, char *pFont, u8 size, u32 fColor, u32 bColor) {
+    if (xLCD.InitOK == 0)
+        return;
+    // 字体大小控制
+    if (size != 12 && size != 16 && size != 24 && size != 32)
+        size = 24;
+
+    u16 xStart = x;
+    u16 yStart = y;
+    u16 xEnd = x + size;
+    u16 yEnd = y + size;
+    while (*pFont != 0) {
+        // 位置控制
+        if (x > (xLCD.width - size))       // 如果这一行不够位置，就下一行
+        {
+            x = xStart;
+            y = y + size;
+        }
+        if (y > (xLCD.height - size))    // 如果到了屏幕底部，就返回，不再输出
+            return;
+
+        // 判断文字是ASCII还是汉字
+        if (*pFont < 127)              // ASCII字符
+        {
+            if (xLCD.InitOK == 0) return;
+
+            u8 temp;
+            u16 y0 = y;
+
+            u8 num = *pFont;
+            u8 csize = (size / 8 + ((size % 8) ? 1 : 0)) * (size / 2);           // 得到字体一个字符对应点阵集所占的字节数
+            num = num - ' ';                                       // 得到偏移后的值（ASCII字库是从空格开始取模，所以-' '就是对应字符的字库）
+            for (u8 t = 0; t < csize; t++) {
+                if (size == 12) temp = asc2_1206[num][t];   // 调用1206字体
+                else if (size == 16) temp = asc2_1608[num][t];   // 调用1608字体
+                else if (size == 24) temp = asc2_2412[num][t];   // 调用2412字体
+                else if (size == 32) temp = asc2_3216[num][t];   // 调用3216字体
+                else return;                                   // 没有的字库
+
+                for (u8 t1 = 0; t1 < 8; t1++) {
+                    if (temp & 0x80) {
+                        map[x][y] = fColor;
+                    } else {
+                        map[x][y] = bColor;
+                    } // 背景 画点
+                    temp <<= 1;
+                    y++;
+                    if (y >= xLCD.height) return;               // 超出屏幕高度(底)
+                    if ((y - y0) == size) {
+                        y = y0;
+                        x++;
+                        if (x >= xLCD.width) return;              // 超出屏幕宽度(宽)
+                        break;
+                    }
+                }
+            }
+            pFont++;
+            x += size / 2;
+        } else                          // 汉字显示
+        {
+            // 重要: 如果用的不是魔女开发板的字库, 就要修改或注释下面这一行, 这样就不影响ASCII英文字符的输出
+            // drawGBK(x, y, (u8 *) pFont, size, fColor, bColor);
+            pFont = pFont + 2;          // 下一个要显示的数据在内存中的位置
+            x = x + size;                 // 下一个要显示的数据在屏幕上的X位置
+        }
+    }
+
+    setCursor(xStart, yStart, xEnd, yEnd);
+    for (int i = xStart; i < xEnd; i++) {
+        for(int j = yStart; j < yEnd; j++) {
+            sendShort(map[i][j]);
         }
     }
 }

@@ -24,8 +24,11 @@ extern float temperature, voltage, NTC;
 extern char string_display[100], string_send[100];
 extern int heat_level;
 
-void set_heat_level(int level);
+extern char tmp_data;
+extern char string_recv[100];
 
+void set_heat_level(int level);
+void set_buzzer_level(int level);
 void refresh_adc();
 
 void send_bluetooth(char string[]);

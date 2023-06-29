@@ -467,7 +467,31 @@ CMakeFiles/computer_control_system.elf.dir/Core/Src/usart.c.obj: D:/STM32/Projec
   D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h \
   D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
   D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
-  D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+  D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdio.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_ansi.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/newlib.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/config.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/ieeefp.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/cdefs.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/reent.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_ansi.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_types.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/_types.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/lock.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/types.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/endian.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/_endian.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/select.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_sigset.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_timeval.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/timespec.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_timespec.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/sched.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/types.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/stdio.h
 
 CMakeFiles/computer_control_system.elf.dir/DSP_LIB/Source/BasicMathFunctions/arm_abs_f32.c.obj: D:/STM32/Project/computer_control_system/DSP_LIB/Source/BasicMathFunctions/arm_abs_f32.c \
   D:/STM32/Project/computer_control_system/Middlewares/ST/ARM/DSP/Inc/arm_math.h \
@@ -9354,6 +9378,9 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj: D:/STM32/Pro
   D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/sched.h \
   D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/types.h \
   D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/stdio.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdlib.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/stdlib.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/alloca.h \
   D:/STM32/Project/computer_control_system/Middlewares/ST/ARM/DSP/Inc/arm_math.h \
   D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm3.h \
   D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
@@ -9640,6 +9667,9 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: D:/STM32/Project
   D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/sched.h \
   D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/types.h \
   D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/stdio.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdlib.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/stdlib.h \
+  D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/alloca.h \
   D:/STM32/Project/computer_control_system/User/Inc/func.h \
   D:/Program\ Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/assert.h
 

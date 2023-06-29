@@ -1,2 +1,4 @@
-func.c:11:6:set_heat_level	1
-func.c:17:6:refresh_adc	3
+func.c:14:6:set_heat_level	1
+func.c:20:6:refresh_adc	3
+func.c:34:6:send_bluetooth	1
+func.c:38:6:send_serial	1

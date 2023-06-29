@@ -29,7 +29,7 @@ User/Src/callback.o: ../User/Src/callback.c ../User/Inc/callback.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  ../User/Inc/lcd.h ../Core/Inc/main.h ../User/Inc/func.h \
- ../Core/Inc/tim.h
+ ../Core/Inc/tim.h ../Core/Inc/usart.h
 ../User/Inc/callback.h:
 ../Middlewares/ST/ARM/DSP/Inc/arm_math.h:
 ../Drivers/CMSIS/Include/core_cm3.h:
@@ -66,3 +66,4 @@ User/Src/callback.o: ../User/Src/callback.c ../User/Inc/callback.h \
 ../Core/Inc/main.h:
 ../User/Inc/func.h:
 ../Core/Inc/tim.h:
+../Core/Inc/usart.h:

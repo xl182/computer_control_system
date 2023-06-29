@@ -1,9 +1,8 @@
 #include "user.h"
 
 const float32_t PID_PARAM_KP = (float32_t) 50;
-const float32_t PID_PARAM_KI = (float32_t) 0.01;
-const float32_t PID_PARAM_KD = (float32_t) 5;
-
+const float32_t PID_PARAM_KI = (float32_t) 5;
+const float32_t PID_PARAM_KD = (float32_t) 10;
 
 void init() {
     pid.Kp = PID_PARAM_KP;
@@ -17,6 +16,7 @@ void init() {
 
     MX_USART1_UART_Init();
     MX_USART3_UART_Init();
+    HAL_UART_Receive_IT(&huart3, (uint8_t *) &tmp_data, 1);
 
     MX_SPI2_Init();
     HAL_SPI_MspInit(&hspi2);
@@ -35,12 +35,12 @@ void init() {
     HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
 
     MX_TIM3_Init();
+    HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_4);
+
     MX_TIM4_Init();
     MX_TIM6_Init();
     MX_TIM7_Init();
 
-    HAL_TIM_Base_Start_IT(&htim1);
-    HAL_TIM_Base_Start_IT(&htim3);
     HAL_TIM_Base_Start_IT(&htim4);
     HAL_TIM_Base_Start_IT(&htim6);
     HAL_TIM_Base_Start_IT(&htim7);
@@ -48,6 +48,12 @@ void init() {
 
 int main() {
     init();
+    set_buzzer_level(100);
+    HAL_Delay(100);
+    set_buzzer_level(0);
+    // set_heat_level(10);
     while (true) {
+        display();
+        HAL_Delay(500);
     }
 }

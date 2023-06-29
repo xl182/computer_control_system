@@ -80,5 +80,8 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\sched.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\machine\types.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\stdio.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\stdlib.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\machine\stdlib.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\alloca.h \
  D:\STM32\Project\computer_control_system\User\Inc/func.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\assert.h

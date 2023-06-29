@@ -8,12 +8,18 @@ char string_display[100] = {0}, string_send[100] = {0};
 arm_pid_instance_f32 pid;
 float temperature = 0, voltage = 0, NTC = 0;
 uint16_t adc1_buffer[ADC_ARRAY_SIZE * ADC_NUMS] = {0};
+char tmp_data = 0;
+char string_recv[100] = {0};
 
 void set_heat_level(int level) {
     assert(level <= 1000);
     TIM1->CCR1 = level;
 }
 
+void set_buzzer_level(int level) {
+    assert(level <= 256);
+    TIM3->CCR4 = level;
+}
 
 void refresh_adc() {
     float res[ADC_NUMS] = {0};

@@ -97,12 +97,10 @@ void Error_Handler(void);
 #define LCD_CS_GPIO_Port GPIOD
 #define LCD_BL_Pin GPIO_PIN_11
 #define LCD_BL_GPIO_Port GPIOD
-#define R_Pin GPIO_PIN_6
-#define R_GPIO_Port GPIOC
-#define G_Pin GPIO_PIN_7
-#define G_GPIO_Port GPIOC
-#define BC8_Pin GPIO_PIN_8
-#define BC8_GPIO_Port GPIOC
+#define Red_Pin GPIO_PIN_6
+#define Red_GPIO_Port GPIOC
+#define Green_Pin GPIO_PIN_7
+#define Green_GPIO_Port GPIOC
 #define Buzzer_Pin GPIO_PIN_9
 #define Buzzer_GPIO_Port GPIOC
 #define TXD_Pin GPIO_PIN_9
