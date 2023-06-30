@@ -1,4 +1,5 @@
-../User/Src/callback.c:14:6:HAL_ADC_ConvCpltCallback	16	static
-../User/Src/callback.c:20:6:HAL_TIM_PeriodElapsedCallback	64	static
-../User/Src/callback.c:57:6:HAL_GPIO_EXTI_Callback	16	static
-../User/Src/callback.c:77:6:HAL_UART_RxCpltCallback	16	static
+../User/Src/callback.c:15:6:HAL_ADC_ConvCpltCallback	16	static
+../User/Src/callback.c:21:6:display	40	static
+../User/Src/callback.c:37:6:HAL_TIM_PeriodElapsedCallback	48	static
+../User/Src/callback.c:69:6:HAL_GPIO_EXTI_Callback	16	static
+../User/Src/callback.c:86:6:HAL_UART_RxCpltCallback	24	static

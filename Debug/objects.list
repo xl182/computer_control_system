@@ -303,5 +303,6 @@
 "./User/Src/callback.o"
 "./User/Src/func.o"
 "./User/Src/lcd.o"
+"./User/Src/pid.o"
 "./User/Src/queue.o"
 "./User/Src/user.o"

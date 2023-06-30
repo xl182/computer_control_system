@@ -8,6 +8,7 @@ C_SRCS += \
 ../User/Src/callback.c \
 ../User/Src/func.c \
 ../User/Src/lcd.c \
+../User/Src/pid.c \
 ../User/Src/queue.c \
 ../User/Src/user.c 
 
@@ -15,6 +16,7 @@ OBJS += \
 ./User/Src/callback.o \
 ./User/Src/func.o \
 ./User/Src/lcd.o \
+./User/Src/pid.o \
 ./User/Src/queue.o \
 ./User/Src/user.o 
 
@@ -22,6 +24,7 @@ C_DEPS += \
 ./User/Src/callback.d \
 ./User/Src/func.d \
 ./User/Src/lcd.d \
+./User/Src/pid.d \
 ./User/Src/queue.d \
 ./User/Src/user.d 
 
@@ -33,7 +36,7 @@ User/Src/%.o User/Src/%.su User/Src/%.cyclo: ../User/Src/%.c User/Src/subdir.mk
 clean: clean-User-2f-Src
 
 clean-User-2f-Src:
-	-$(RM) ./User/Src/callback.cyclo ./User/Src/callback.d ./User/Src/callback.o ./User/Src/callback.su ./User/Src/func.cyclo ./User/Src/func.d ./User/Src/func.o ./User/Src/func.su ./User/Src/lcd.cyclo ./User/Src/lcd.d ./User/Src/lcd.o ./User/Src/lcd.su ./User/Src/queue.cyclo ./User/Src/queue.d ./User/Src/queue.o ./User/Src/queue.su ./User/Src/user.cyclo ./User/Src/user.d ./User/Src/user.o ./User/Src/user.su
+	-$(RM) ./User/Src/callback.cyclo ./User/Src/callback.d ./User/Src/callback.o ./User/Src/callback.su ./User/Src/func.cyclo ./User/Src/func.d ./User/Src/func.o ./User/Src/func.su ./User/Src/lcd.cyclo ./User/Src/lcd.d ./User/Src/lcd.o ./User/Src/lcd.su ./User/Src/pid.cyclo ./User/Src/pid.d ./User/Src/pid.o ./User/Src/pid.su ./User/Src/queue.cyclo ./User/Src/queue.d ./User/Src/queue.o ./User/Src/queue.su ./User/Src/user.cyclo ./User/Src/user.d ./User/Src/user.o ./User/Src/user.su
 
 .PHONY: clean-User-2f-Src
 

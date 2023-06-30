@@ -29,9 +29,9 @@ void refresh_adc() {
     for (int i = 0; i < ADC_NUMS; i++) {
         res[i] = (res[i] / ADC_ARRAY_SIZE);
     }
-    temperature = res[0];
-    voltage = res[1];
-    NTC = res[2];
+    temperature = res[2];
+    voltage = res[0];
+    NTC = res[1];
     HAL_ADC_Start_DMA(&hadc1, (uint32_t *) &adc1_buffer, ADC_ARRAY_SIZE * ADC_NUMS);
 }
 

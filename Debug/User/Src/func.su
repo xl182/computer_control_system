@@ -1,4 +1,5 @@
 ../User/Src/func.c:14:6:set_heat_level	16	static
-../User/Src/func.c:20:6:refresh_adc	40	static
-../User/Src/func.c:34:6:send_bluetooth	16	static
-../User/Src/func.c:38:6:send_serial	16	static
+../User/Src/func.c:19:6:set_buzzer_level	16	static
+../User/Src/func.c:24:6:refresh_adc	40	static
+../User/Src/func.c:38:6:send_bluetooth	16	static
+../User/Src/func.c:42:6:send_serial	16	static

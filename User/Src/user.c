@@ -1,8 +1,8 @@
 #include "user.h"
 
-const float32_t PID_PARAM_KP = (float32_t) 50;
-const float32_t PID_PARAM_KI = (float32_t) 5;
-const float32_t PID_PARAM_KD = (float32_t) 10;
+const float32_t PID_PARAM_KP = (float32_t) 10;
+const float32_t PID_PARAM_KI = (float32_t) 1;
+const float32_t PID_PARAM_KD = (float32_t) 1;
 
 void init() {
     pid.Kp = PID_PARAM_KP;
@@ -13,6 +13,8 @@ void init() {
     HAL_Init();
     SystemClock_Config();
     MX_GPIO_Init();
+
+    while (HAL_GPIO_ReadPin(SW_GPIO_Port, SW_Pin) == SET) {};
 
     MX_USART1_UART_Init();
     MX_USART3_UART_Init();
@@ -54,6 +56,6 @@ int main() {
     // set_heat_level(10);
     while (true) {
         display();
-        HAL_Delay(500);
+        HAL_Delay(200);
     }
 }

@@ -3,6 +3,8 @@
 //
 #include "callback.h"
 
+int time_counter = 0;
+float simulation_temperature = 0;
 int goal_temperature = 300;
 float duty;
 
@@ -17,21 +19,25 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc) {
     }
 }
 
-void display()
-{
-    int x = 10, y = 10, size = 16, y_increment = 20;
-    sprintf(string_display, "pid_error: %04f", pid_error);
-    mLCD_String(x, y, string_display, size, WHITE, BLACK), y += y_increment;
-    sprintf(string_display, "t:%04f", temperature);
-    LCD_String(x, y, string_display, size, WHITE, BLACK), y += y_increment;
-    sprintf(string_display, "goal:%04d", goal_temperature);
-    LCD_String(x, y, string_display, size, WHITE, BLACK), y += y_increment;
-    sprintf(string_display, "enc:%04d", encoder_count);
-    LCD_String(x, y, string_display, size, WHITE, BLACK), y += y_increment;
-    sprintf(string_display, "heat_level:%04d", heat_level);
-    LCD_String(x, y, string_display, size, WHITE, BLACK), y += y_increment;
-    sprintf(string_display, "data:%6s", string_recv);
-    LCD_String(x, y, string_display, size, WHITE, BLACK), y += y_increment;
+void display() {
+    static int lcd_count = 0;
+    lcd_count += 1;
+    int size = 12, x = size / 2, y = size / 2, y_increment = size + size / 4;
+    sprintf(string_display, "fps:%0.1f", (float) lcd_count * 10.0 / (float) time_counter);
+    LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
+
+    sprintf(string_display, "pid_error: %0.1f", pid_error);
+    LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
+    sprintf(string_display, "temper: %0.1f", simulation_temperature);
+    LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
+    sprintf(string_display, "goal:%04d, val:%04d", goal_temperature, (uint16_t) temperature);
+    LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
+    sprintf(string_display, "encoder: %04d", encoder_count);
+    LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
+    sprintf(string_display, "heat_level: %04d", heat_level);
+    LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
+    sprintf(string_display, "data: %6s", string_recv);
+    LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
 }
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
@@ -42,37 +48,38 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
             led_count = 0;
         }
         led_count += 1;
+
+        time_counter += 1;
     }
 
     if (htim->Instance == TIM7) {
-//         refresh_adc();
-        pid_error = (float) goal_temperature - temperature;
-        if ((goal_temperature - (uint16_t) temperature) < 20) {
+        refresh_adc();
+        pid_error = (float) goal_temperature - simulation_temperature;
+        if ((goal_temperature - (uint16_t) simulation_temperature) < 20) {
             duty = arm_pid_f32(&pid, pid_error);
             // set_heat_level((uint16_t) duty);
             if (duty < -5) {
-                duty = (float) (-5.0 * (temperature) / 300.0);
+                duty = (float) (-5.0 * (simulation_temperature) / 300.0);
             }
             if (duty > 10) {
-                duty = (float) (10.0 * (500 - temperature) / 300.0);
+                duty = (float) (10.0 * (500 - simulation_temperature) / 300.0);
             }
-            temperature += (float) 0.5 * duty;
+            simulation_temperature += (float) 0.5 * duty;
         } else {
-            temperature += 10;
+            simulation_temperature += 10;
         }
 
-        sprintf(string_send, "%f, %f\n", temperature, (float) goal_temperature);
+        sprintf(string_send, "%f, %f\n", simulation_temperature, (float) goal_temperature);
         send_bluetooth(string_send);
     }
 }
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
-
-    if (GPIO_Pin == B_Pin) {
-        if (HAL_GPIO_ReadPin(A_GPIO_Port, A_Pin) == RESET && encoder_count < 1000) {
-            encoder_count += 1;
-        } else {
+    if (GPIO_Pin == A_Pin) {
+        if (HAL_GPIO_ReadPin(B_GPIO_Port, B_Pin) == RESET && encoder_count < 1000) {
             encoder_count -= 1;
+        } else {
+            encoder_count += 1;
         }
     }
 
