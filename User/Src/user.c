@@ -28,7 +28,10 @@ void init() {
     LCD_Display(true);
     LCD_Fill(0, 0, LCD_WIDTH, LCD_HEIGHT, GRAYBLUE);
 
+#if defined USE_ADC_DMA
     MX_DMA_Init();
+#endif
+
     MX_ADC1_Init();
     HAL_ADC_MspInit(&hadc1);
     HAL_ADCEx_Calibration_Start(&hadc1);
@@ -53,8 +56,15 @@ int main() {
     set_buzzer_level(100);
     HAL_Delay(100);
     set_buzzer_level(0);
-    // set_heat_level(10);
+    set_heat_level(10);
     while (true) {
+        set_heat_level(0);
+        HAL_Delay(1);
+#if defined USE_ADC_DMA
+        refresh_adc_dma();
+#else
+        refresh_adc();
+#endif
         display();
         HAL_Delay(200);
     }

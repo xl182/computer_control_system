@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/computer_control_system.elf.dir/Core/Src/adc.c.obj"
   "CMakeFiles/computer_control_system.elf.dir/Core/Src/adc.c.obj.d"
-  "CMakeFiles/computer_control_system.elf.dir/Core/Src/dma.c.obj"
-  "CMakeFiles/computer_control_system.elf.dir/Core/Src/dma.c.obj.d"
   "CMakeFiles/computer_control_system.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/computer_control_system.elf.dir/Core/Src/gpio.c.obj.d"
   "CMakeFiles/computer_control_system.elf.dir/Core/Src/main.c.obj"
@@ -607,6 +605,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj.d"
   "CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj"
   "CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj.d"
+  "CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj"
+  "CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj.d"
   "CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj"
   "CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj.d"
   "CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj"

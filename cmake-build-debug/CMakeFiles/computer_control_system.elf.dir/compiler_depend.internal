@@ -42,47 +42,6 @@ CMakeFiles/computer_control_system.elf.dir/Core/Src/adc.c.obj
  D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
-CMakeFiles/computer_control_system.elf.dir/Core/Src/dma.c.obj
- D:/STM32/Project/computer_control_system/Core/Src/dma.c
- D:/STM32/Project/computer_control_system/Core/Inc/dma.h
- D:/STM32/Project/computer_control_system/Core/Inc/main.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
- D:/STM32/Project/computer_control_system/Core/Inc/stm32f1xx_hal_conf.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
- D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
- D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
- D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm3.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdint.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/_default_types.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/features.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_newlib_version.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_intsup.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_stdint.h
- D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_version.h
- D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_compiler.h
- D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_gcc.h
- D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
- D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
-
 CMakeFiles/computer_control_system.elf.dir/Core/Src/gpio.c.obj
  D:/STM32/Project/computer_control_system/Core/Src/gpio.c
  D:/STM32/Project/computer_control_system/Core/Inc/gpio.h
@@ -165,7 +124,6 @@ CMakeFiles/computer_control_system.elf.dir/Core/Src/main.c.obj
  D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
  D:/STM32/Project/computer_control_system/Core/Inc/adc.h
  D:/STM32/Project/computer_control_system/Core/Inc/main.h
- D:/STM32/Project/computer_control_system/Core/Inc/dma.h
  D:/STM32/Project/computer_control_system/Core/Inc/spi.h
  D:/STM32/Project/computer_control_system/Core/Inc/tim.h
  D:/STM32/Project/computer_control_system/Core/Inc/usart.h
@@ -9650,6 +9608,7 @@ CMakeFiles/computer_control_system.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm3
 CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj
  D:/STM32/Project/computer_control_system/User/Src/callback.c
  D:/STM32/Project/computer_control_system/User/Inc/callback.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdio.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_ansi.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/newlib.h
@@ -9660,7 +9619,6 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/cdefs.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/_default_types.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/reent.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_ansi.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_types.h
@@ -9682,6 +9640,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdlib.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/stdlib.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/alloca.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
  D:/STM32/Project/computer_control_system/Middlewares/ST/ARM/DSP/Inc/arm_math.h
  D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm3.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -9724,6 +9683,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj
  D:/STM32/Project/computer_control_system/User/Inc/lcd.h
  D:/STM32/Project/computer_control_system/Core/Inc/main.h
  D:/STM32/Project/computer_control_system/User/Inc/func.h
+ D:/STM32/Project/computer_control_system/User/Inc/settings.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/assert.h
  D:/STM32/Project/computer_control_system/Core/Inc/tim.h
  D:/STM32/Project/computer_control_system/Core/Inc/usart.h
@@ -9731,6 +9691,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj
 CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj
  D:/STM32/Project/computer_control_system/User/Src/func.c
  D:/STM32/Project/computer_control_system/User/Inc/func.h
+ D:/STM32/Project/computer_control_system/User/Inc/settings.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/assert.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_ansi.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/newlib.h
@@ -9773,14 +9734,29 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj
  D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
- D:/STM32/Project/computer_control_system/Middlewares/ST/ARM/DSP/Inc/arm_math.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/string.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdio.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/cdefs.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/reent.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_ansi.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_types.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/_types.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/lock.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/cdefs.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/types.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/endian.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/_endian.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/select.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_sigset.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_timeval.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/timespec.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_timespec.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_pthreadtypes.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/sched.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/types.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/stdio.h
+ D:/STM32/Project/computer_control_system/User/Inc/lcd.h
+ D:/STM32/Project/computer_control_system/Middlewares/ST/ARM/DSP/Inc/arm_math.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/string.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_locale.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/strings.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/string.h
@@ -9834,6 +9810,47 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj
  D:/STM32/Project/computer_control_system/Core/Inc/main.h
  D:/STM32/Project/computer_control_system/Core/Inc/spi.h
  D:/STM32/Project/computer_control_system/User/Inc/font.h
+
+CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj
+ D:/STM32/Project/computer_control_system/User/Src/pid.c
+ D:/STM32/Project/computer_control_system/User/Inc/pid.h
+ D:/STM32/Project/computer_control_system/Core/Inc/main.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+ D:/STM32/Project/computer_control_system/Core/Inc/stm32f1xx_hal_conf.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+ D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+ D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+ D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/core_cm3.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdint.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/_default_types.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/features.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_newlib_version.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_intsup.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_stdint.h
+ D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_version.h
+ D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_compiler.h
+ D:/STM32/Project/computer_control_system/Drivers/CMSIS/Include/cmsis_gcc.h
+ D:/STM32/Project/computer_control_system/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+ D:/STM32/Project/computer_control_system/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj
  D:/STM32/Project/computer_control_system/User/Src/queue.c
@@ -9893,6 +9910,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj
 CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj
  D:/STM32/Project/computer_control_system/User/Src/user.c
  D:/STM32/Project/computer_control_system/User/Inc/user.h
+ D:/STM32/Project/computer_control_system/User/Inc/settings.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/iso646.h
  D:/STM32/Project/computer_control_system/Middlewares/ST/ARM/DSP/Inc/arm_math.h
@@ -9954,12 +9972,11 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj
  D:/STM32/Project/computer_control_system/Core/Inc/usart.h
  D:/STM32/Project/computer_control_system/Core/Inc/tim.h
  D:/STM32/Project/computer_control_system/Core/Inc/spi.h
- D:/STM32/Project/computer_control_system/Core/Inc/dma.h
  D:/STM32/Project/computer_control_system/User/Inc/lcd.h
  D:/STM32/Project/computer_control_system/User/Inc/queue.h
  D:/STM32/Project/computer_control_system/User/Inc/callback.h
- D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdio.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
+ D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdio.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/types.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/endian.h
  D:/Program Files/STMicroelectronics/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/_endian.h

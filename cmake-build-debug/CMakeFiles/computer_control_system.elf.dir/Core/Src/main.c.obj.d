@@ -39,7 +39,6 @@ CMakeFiles/computer_control_system.elf.dir/Core/Src/main.c.obj: \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
  D:\STM32\Project\computer_control_system\Core\Inc/adc.h \
  D:\STM32\Project\computer_control_system\Core\Inc/main.h \
- D:\STM32\Project\computer_control_system\Core\Inc/dma.h \
  D:\STM32\Project\computer_control_system\Core\Inc/spi.h \
  D:\STM32\Project\computer_control_system\Core\Inc/tim.h \
  D:\STM32\Project\computer_control_system\Core\Inc/usart.h \

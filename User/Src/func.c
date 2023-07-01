@@ -12,16 +12,14 @@ char tmp_data = 0;
 char string_recv[100] = {0};
 
 void set_heat_level(int level) {
-    assert(level <= 1000);
     TIM1->CCR1 = level;
 }
 
 void set_buzzer_level(int level) {
-    assert(level <= 256);
     TIM3->CCR4 = level;
 }
 
-void refresh_adc() {
+void refresh_adc_dma() {
     float res[ADC_NUMS] = {0};
     for (int i = 0; i < ADC_ARRAY_SIZE * ADC_NUMS; i++) {
         res[i % ADC_NUMS] += (float) adc1_buffer[i];
@@ -29,10 +27,24 @@ void refresh_adc() {
     for (int i = 0; i < ADC_NUMS; i++) {
         res[i] = (res[i] / ADC_ARRAY_SIZE);
     }
-    temperature = res[2];
     voltage = res[0];
     NTC = res[1];
+    temperature = res[2];
     HAL_ADC_Start_DMA(&hadc1, (uint32_t *) &adc1_buffer, ADC_ARRAY_SIZE * ADC_NUMS);
+}
+
+void refresh_adc() {
+    int adc_sum[ADC_NUMS] = {0};
+    for (int i = 0; i < ADC_ARRAY_SIZE; i++) {
+        for (int j = 0; j < ADC_NUMS; j++) {
+            HAL_ADC_Start(&hadc1);
+            HAL_ADC_PollForConversion(&hadc1, 50);
+            adc_sum[j] += (uint16_t) HAL_ADC_GetValue(&hadc1);
+        }
+    }
+    voltage = (float) adc_sum[0] / ADC_ARRAY_SIZE;
+    NTC = (float) adc_sum[1] / ADC_ARRAY_SIZE;
+    temperature = (float) adc_sum[2] / ADC_ARRAY_SIZE;
 }
 
 void send_bluetooth(char string[]) {

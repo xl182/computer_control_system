@@ -11,8 +11,9 @@
 #include "tim.h"
 #include "usart.h"
 #include "adc.h"
+#include "settings.h"
 
-#define ADC_ARRAY_SIZE 16
+#define ADC_ARRAY_SIZE 8
 #define ADC_NUMS 3
 
 #define serial huart1
@@ -30,6 +31,8 @@ extern char string_recv[100];
 void set_heat_level(int level);
 
 void set_buzzer_level(int level);
+
+void refresh_adc_dma();
 
 void refresh_adc();
 

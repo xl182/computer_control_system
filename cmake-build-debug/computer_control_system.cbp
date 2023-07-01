@@ -107,9 +107,6 @@
 		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/adc.h">
 			<Option target="computer_control_system.elf"/>
 		</Unit>
-		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/dma.h">
-			<Option target="computer_control_system.elf"/>
-		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/Core/Inc/gpio.h">
 			<Option target="computer_control_system.elf"/>
 		</Unit>
@@ -132,9 +129,6 @@
 			<Option target="computer_control_system.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/adc.c">
-			<Option target="computer_control_system.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/dma.c">
 			<Option target="computer_control_system.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/Core/Src/gpio.c">
@@ -1244,7 +1238,13 @@
 		<Unit filename="D:/STM32/Project/computer_control_system/User/Inc/lcd.h">
 			<Option target="computer_control_system.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Inc/pid.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/User/Inc/queue.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Inc/settings.h">
 			<Option target="computer_control_system.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/User/Inc/user.h">
@@ -1257,6 +1257,9 @@
 			<Option target="computer_control_system.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/User/Src/lcd.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Src/pid.c">
 			<Option target="computer_control_system.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/User/Src/queue.c">

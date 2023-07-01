@@ -12,12 +12,15 @@ int encoder_count = 300;
 float pid_error = 0;
 const double k = 0.1;
 
+#if defined USE_ADC_DMA
 
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc) {
     if (hadc->Instance == ADC1) {
         HAL_ADC_Stop_DMA(&hadc1);
     }
 }
+
+#endif
 
 void display() {
     static int lcd_count = 0;
@@ -30,13 +33,15 @@ void display() {
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
     sprintf(string_display, "temper: %0.1f", simulation_temperature);
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
-    sprintf(string_display, "goal:%04d, val:%04d", goal_temperature, (uint16_t) temperature);
+    sprintf(string_display, "goal:%04d, val:%.1f", goal_temperature, temperature);
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
     sprintf(string_display, "encoder: %04d", encoder_count);
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
     sprintf(string_display, "heat_level: %04d", heat_level);
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
     sprintf(string_display, "data: %6s", string_recv);
+    LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
+    sprintf(string_display, "t:%3.1f,NTC:%04d,Vout:%04d", temperature, (uint16_t) NTC, (uint16_t) voltage);
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
 }
 
@@ -48,22 +53,28 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
             led_count = 0;
         }
         led_count += 1;
-
         time_counter += 1;
     }
 
     if (htim->Instance == TIM7) {
+        set_heat_level(0);
+
+#if defined USE_ADC_DMA
+        refresh_adc_dma();
+#else
         refresh_adc();
+#endif
+        set_heat_level(10);
         pid_error = (float) goal_temperature - simulation_temperature;
         if ((goal_temperature - (uint16_t) simulation_temperature) < 20) {
             duty = arm_pid_f32(&pid, pid_error);
-            // set_heat_level((uint16_t) duty);
             if (duty < -5) {
                 duty = (float) (-5.0 * (simulation_temperature) / 300.0);
             }
             if (duty > 10) {
                 duty = (float) (10.0 * (500 - simulation_temperature) / 300.0);
             }
+            // set_heat_level((uint16_t) duty);
             simulation_temperature += (float) 0.5 * duty;
         } else {
             simulation_temperature += 10;

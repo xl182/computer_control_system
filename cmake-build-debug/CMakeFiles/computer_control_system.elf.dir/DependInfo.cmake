@@ -36,7 +36,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/STM32/Project/computer_control_system/Core/Src/adc.c" "CMakeFiles/computer_control_system.elf.dir/Core/Src/adc.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/Core/Src/adc.c.obj.d"
-  "D:/STM32/Project/computer_control_system/Core/Src/dma.c" "CMakeFiles/computer_control_system.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/Core/Src/dma.c.obj.d"
   "D:/STM32/Project/computer_control_system/Core/Src/gpio.c" "CMakeFiles/computer_control_system.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/Core/Src/gpio.c.obj.d"
   "D:/STM32/Project/computer_control_system/Core/Src/main.c" "CMakeFiles/computer_control_system.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/Core/Src/main.c.obj.d"
   "D:/STM32/Project/computer_control_system/Core/Src/spi.c" "CMakeFiles/computer_control_system.elf.dir/Core/Src/spi.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/Core/Src/spi.c.obj.d"
@@ -338,6 +337,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/STM32/Project/computer_control_system/User/Src/callback.c" "CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj.d"
   "D:/STM32/Project/computer_control_system/User/Src/func.c" "CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj.d"
   "D:/STM32/Project/computer_control_system/User/Src/lcd.c" "CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj.d"
+  "D:/STM32/Project/computer_control_system/User/Src/pid.c" "CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj.d"
   "D:/STM32/Project/computer_control_system/User/Src/queue.c" "CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj.d"
   "D:/STM32/Project/computer_control_system/User/Src/user.c" "CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj.d"
   )

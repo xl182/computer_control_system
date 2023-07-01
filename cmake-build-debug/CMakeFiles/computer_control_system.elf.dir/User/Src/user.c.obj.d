@@ -1,6 +1,7 @@
 CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: \
  D:\STM32\Project\computer_control_system\User\Src\user.c \
  D:\STM32\Project\computer_control_system\User\Inc/user.h \
+ D:\STM32\Project\computer_control_system\User\Inc/settings.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\lib\gcc\arm-none-eabi\10.3.1\include\iso646.h \
  D:\STM32\Project\computer_control_system\Middlewares\ST\ARM\DSP\Inc/arm_math.h \
@@ -62,12 +63,11 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: \
  D:\STM32\Project\computer_control_system\Core\Inc/usart.h \
  D:\STM32\Project\computer_control_system\Core\Inc/tim.h \
  D:\STM32\Project\computer_control_system\Core\Inc/spi.h \
- D:\STM32\Project\computer_control_system\Core\Inc/dma.h \
  D:\STM32\Project\computer_control_system\User\Inc/lcd.h \
  D:\STM32\Project\computer_control_system\User\Inc/queue.h \
  D:\STM32\Project\computer_control_system\User\Inc/callback.h \
- d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\stdio.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\stdio.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\types.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\machine\endian.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\machine\_endian.h \
