@@ -1,7 +1,6 @@
 CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj: \
  D:\STM32\Project\computer_control_system\User\Src\func.c \
  D:\STM32\Project\computer_control_system\User\Inc/func.h \
- D:\STM32\Project\computer_control_system\User\Inc/settings.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\assert.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\_ansi.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\newlib.h \
@@ -39,14 +38,17 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj: \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_adc_ex.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash_ex.h \
+ D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_i2c.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
+ D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_sd.h \
+ D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_ll_sdmmc.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_spi.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
- d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\stdio.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\cdefs.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\reent.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\_ansi.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\_types.h \
@@ -64,7 +66,6 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj: \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\sched.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\machine\types.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\stdio.h \
- D:\STM32\Project\computer_control_system\User\Inc/lcd.h \
  D:\STM32\Project\computer_control_system\Middlewares\ST\ARM\DSP\Inc/arm_math.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\string.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\_locale.h \
@@ -74,4 +75,5 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj: \
  D:\STM32\Project\computer_control_system\Core\Inc/tim.h \
  D:\STM32\Project\computer_control_system\Core\Inc/main.h \
  D:\STM32\Project\computer_control_system\Core\Inc/usart.h \
- D:\STM32\Project\computer_control_system\Core\Inc/adc.h
+ D:\STM32\Project\computer_control_system\Core\Inc/adc.h \
+ D:\STM32\Project\computer_control_system\User\Inc/settings.h

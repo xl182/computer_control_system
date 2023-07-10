@@ -3,5 +3,3 @@
 
 CMakeFiles/computer_control_system.elf.dir/Core/Startup/startup_stm32f103vctx.s.obj
  D:/STM32/Project/computer_control_system/Core/Startup/startup_stm32f103vctx.s
-CMakeFiles/computer_control_system.elf.dir/DSP_LIB/Source/TransformFunctions/arm_bitreversal2.S.obj
- D:/STM32/Project/computer_control_system/DSP_LIB/Source/TransformFunctions/arm_bitreversal2.S

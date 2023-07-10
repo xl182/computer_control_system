@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.24)
 # specify cross-compilers and tools
 set(CMAKE_C_COMPILER arm-none-eabi-gcc)
 set(CMAKE_CXX_COMPILER arm-none-eabi-g++)
-set(CMAKE_ASM_COMPILER  arm-none-eabi-gcc)
+set(CMAKE_ASM_COMPILER arm-none-eabi-gcc)
 set(CMAKE_AR arm-none-eabi-ar)
 set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
 set(CMAKE_OBJDUMP arm-none-eabi-objdump)
@@ -49,11 +49,24 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(Core/Inc Drivers/STM32F1xx_HAL_Driver/Inc Drivers/STM32F1xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F1xx/Include Drivers/CMSIS/Include Middlewares/ST/ARM/DSP/Inc User/Inc DSP_LIB/Include)
+link_directories(Middlewares/ST/ARM/DSP/Lib)
+include_directories(Core/Inc
+        Drivers/STM32F1xx_HAL_Driver/Inc
+        Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+        Drivers/CMSIS/Device/ST/STM32F1xx/Include
+        Drivers/CMSIS/Include
+        Middlewares/ST/ARM/DSP/Inc
+        Middlewares/Third_Party/FatFs/src
+        Middlewares/Third_Party/FatFs/src/drivers
+        User/Inc
+        LVGL
+        LVGL/porting
+        FATFS/Target
+        FATFS/App)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DARM_MATH_CM3)
 
-file(GLOB_RECURSE SOURCES "Core/*.*" "DSP_LIB/*.*" "Drivers/*.*" "Library/*.*" "Middlewares/*.*" "User/*.*")
+file(GLOB_RECURSE SOURCES "User/*.*" "Library/*.*" "Core/*.*" "FATFS/*.*" "LVGL/*.*" "Middlewares/*.*" "Drivers/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103VCTX_FLASH.ld)
 
@@ -62,7 +75,7 @@ add_link_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork)
 add_link_options(-T ${LINKER_SCRIPT})
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
-
+target_link_libraries(${PROJECT_NAME}.elf libarm_cortexM3l_math.a)
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)
 

@@ -12,36 +12,22 @@ int encoder_count = 300;
 float pid_error = 0;
 const double k = 0.1;
 
-#if defined USE_ADC_DMA
-
-void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc) {
-    if (hadc->Instance == ADC1) {
-        HAL_ADC_Stop_DMA(&hadc1);
-    }
-}
-
-#endif
-
 void display() {
     static int lcd_count = 0;
     lcd_count += 1;
-    int size = 12, x = size / 2, y = size / 2, y_increment = size + size / 4;
+    const int size = 12;
+    int x = size / 2, y = size / 2, y_increment = size + size / 4;
     sprintf(string_display, "fps:%0.1f", (float) lcd_count * 10.0 / (float) time_counter);
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
-
     sprintf(string_display, "pid_error: %0.1f", pid_error);
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
-    sprintf(string_display, "temper: %0.1f", simulation_temperature);
-    LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
-    sprintf(string_display, "goal:%04d, val:%.1f", goal_temperature, temperature);
+    sprintf(string_display, "goal:%04d, val:%.1f", goal_temperature, temperature * 1000.0 / 100.0 / 4096.0 * 3.3);
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
     sprintf(string_display, "encoder: %04d", encoder_count);
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
     sprintf(string_display, "heat_level: %04d", heat_level);
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
-    sprintf(string_display, "data: %6s", string_recv);
-    LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
-    sprintf(string_display, "t:%3.1f,NTC:%04d,Vout:%04d", temperature, (uint16_t) NTC, (uint16_t) voltage);
+    sprintf(string_display, "temper: %.1f", temperature);
     LCD_String(x, y, string_display, size, WHITE, GRAYBLUE), y += y_increment;
 }
 
@@ -58,12 +44,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 
     if (htim->Instance == TIM7) {
         set_heat_level(0);
-
-#if defined USE_ADC_DMA
-        refresh_adc_dma();
-#else
         refresh_adc();
-#endif
         set_heat_level(10);
         pid_error = (float) goal_temperature - simulation_temperature;
         if ((goal_temperature - (uint16_t) simulation_temperature) < 20) {
@@ -80,8 +61,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
             simulation_temperature += 10;
         }
 
-        sprintf(string_send, "%f, %f\n", simulation_temperature, (float) goal_temperature);
-        send_bluetooth(string_send);
+//        sprintf(string_send, "%f, %f\n", simulation_temperature, (float) goal_temperature);
+//        send_bluetooth(string_send);
     }
 }
 

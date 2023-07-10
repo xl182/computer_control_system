@@ -1,5 +1,7 @@
-../User/Src/func.c:14:6:set_heat_level	16	static
-../User/Src/func.c:18:6:set_buzzer_level	16	static
-../User/Src/func.c:23:6:refresh_adc	40	static
-../User/Src/func.c:37:6:send_bluetooth	16	static
-../User/Src/func.c:41:6:send_serial	16	static
+../User/Src/func.c:26:1:__io_putchar	16	static
+../User/Src/func.c:32:6:set_heat_level	16	static
+../User/Src/func.c:37:6:set_buzzer_level	16	static
+../User/Src/func.c:41:6:refresh_adc_dma	40	static
+../User/Src/func.c:55:6:refresh_adc	32	static
+../User/Src/func.c:69:6:send_bluetooth	16	static
+../User/Src/func.c:73:6:send_serial	16	static

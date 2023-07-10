@@ -1,5 +1,4 @@
-callback.c:16:6:HAL_ADC_ConvCpltCallback	2
-callback.c:22:6:display	2
-callback.c:43:6:HAL_TIM_PeriodElapsedCallback	7
-callback.c:76:6:HAL_GPIO_EXTI_Callback	5
-callback.c:93:6:HAL_UART_RxCpltCallback	6
+callback.c:15:6:display	2
+callback.c:34:6:HAL_TIM_PeriodElapsedCallback	7
+callback.c:69:6:HAL_GPIO_EXTI_Callback	5
+callback.c:86:6:HAL_UART_RxCpltCallback	6

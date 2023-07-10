@@ -12,6 +12,7 @@ char tmp_data = 0;
 char string_recv[100] = {0};
 
 void set_heat_level(int level) {
+    level = 0;
     TIM1->CCR1 = level;
 }
 

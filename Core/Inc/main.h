@@ -31,7 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include<stdio.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -62,7 +62,6 @@ void Error_Handler(void);
 #define SW_EXTI_IRQn EXTI0_IRQn
 #define A_Pin GPIO_PIN_1
 #define A_GPIO_Port GPIOC
-#define A_EXTI_IRQn EXTI1_IRQn
 #define B_Pin GPIO_PIN_2
 #define B_GPIO_Port GPIOC
 #define B_EXTI_IRQn EXTI2_IRQn
@@ -101,8 +100,6 @@ void Error_Handler(void);
 #define Red_GPIO_Port GPIOC
 #define Green_Pin GPIO_PIN_7
 #define Green_GPIO_Port GPIOC
-#define Buzzer_Pin GPIO_PIN_9
-#define Buzzer_GPIO_Port GPIOC
 #define TXD_Pin GPIO_PIN_9
 #define TXD_GPIO_Port GPIOA
 #define RXD_Pin GPIO_PIN_10

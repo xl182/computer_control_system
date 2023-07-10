@@ -10,17 +10,16 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include User/Src/subdir.mk
+-include LVGL/src/lv_widgets/subdir.mk
+-include LVGL/src/lv_themes/subdir.mk
+-include LVGL/src/lv_misc/subdir.mk
+-include LVGL/src/lv_hal/subdir.mk
+-include LVGL/src/lv_gpu/subdir.mk
+-include LVGL/src/lv_font/subdir.mk
+-include LVGL/src/lv_draw/subdir.mk
+-include LVGL/src/lv_core/subdir.mk
+-include LVGL/porting/subdir.mk
 -include Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk
--include DSP_LIB/Source/TransformFunctions/subdir.mk
--include DSP_LIB/Source/SupportFunctions/subdir.mk
--include DSP_LIB/Source/StatisticsFunctions/subdir.mk
--include DSP_LIB/Source/MatrixFunctions/subdir.mk
--include DSP_LIB/Source/FilteringFunctions/subdir.mk
--include DSP_LIB/Source/FastMathFunctions/subdir.mk
--include DSP_LIB/Source/ControllerFunctions/subdir.mk
--include DSP_LIB/Source/ComplexMathFunctions/subdir.mk
--include DSP_LIB/Source/CommonTables/subdir.mk
--include DSP_LIB/Source/BasicMathFunctions/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
 -include objects.mk
@@ -72,7 +71,7 @@ main-build: computer_control_system.elf secondary-outputs
 
 # 工具调用
 computer_control_system.elf computer_control_system.map: $(OBJS) $(USER_OBJS) D:\STM32\Project\computer_control_system\STM32F103VCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "computer_control_system.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\STM32\Project\computer_control_system\STM32F103VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="computer_control_system.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "computer_control_system.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\STM32\Project\computer_control_system\STM32F103VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="computer_control_system.map" -Wl,--gc-sections -static -L../Middlewares/ST/ARM/DSP/Lib --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo '已结束构建目标： $@'
 	@echo ' '
 

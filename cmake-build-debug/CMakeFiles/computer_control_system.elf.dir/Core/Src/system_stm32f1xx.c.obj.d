@@ -31,7 +31,10 @@ CMakeFiles/computer_control_system.elf.dir/Core/Src/system_stm32f1xx.c.obj: \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_adc_ex.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash_ex.h \
+ D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_i2c.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
+ D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_sd.h \
+ D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_ll_sdmmc.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_spi.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim.h \
  D:\STM32\Project\computer_control_system\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \

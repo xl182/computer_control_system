@@ -14,6 +14,9 @@
 #include "lcd.h"
 #include "func.h"
 #include "settings.h"
+#include "gui.h"
+#include "lvgl.h"
+
 void display();
 
 #endif //COMPUTER_CONTROL_SYSTEM_CALLBACK_H
