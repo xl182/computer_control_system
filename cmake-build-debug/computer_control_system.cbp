@@ -1143,6 +1143,9 @@
 		<Unit filename="D:/STM32/Project/computer_control_system/Middlewares/Third_Party/FatFs/src/integer.h">
 			<Option target="computer_control_system.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/Middlewares/Third_Party/FatFs/src/option/syscall.c">
 			<Option target="computer_control_system.elf"/>
 		</Unit>

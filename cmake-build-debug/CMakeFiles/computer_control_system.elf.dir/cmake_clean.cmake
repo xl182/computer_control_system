@@ -306,6 +306,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj.d"
   "CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
   "CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj.d"
+  "CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj"
+  "CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj.d"
   "CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
   "CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj.d"
   "CMakeFiles/computer_control_system.elf.dir/User/Src/at24c02.c.obj"

@@ -21,8 +21,13 @@
 #include "lvgl.h"
 #include "gui.h"
 #include "dma.h"
+
 #include "fatfs.h"
 #include "sdio.h"
+#include "ff.h"
+#include "diskio.h"
+#include "bsp_driver_sd.h"
+
 #include "queue.h"
 #include "func.h"
 #include "callback.h"
@@ -34,7 +39,7 @@
 #endif
 PUTCHAR_PROTOTYPE
 {
-    HAL_UART_Transmit(&huart1 , (uint8_t *)&ch, 1, 0xFFFF);
+    HAL_UART_Transmit(&huart3, (uint8_t *)&ch, 1, 0xFFFF);
     return ch;
 }
 

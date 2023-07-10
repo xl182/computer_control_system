@@ -3808,6 +3808,30 @@ Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
 .PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
 
+Middlewares/Third_Party/FatFs/src/option/ccsbcs.obj: Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/option/ccsbcs.obj
+
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
+
+Middlewares/Third_Party/FatFs/src/option/ccsbcs.i: Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/option/ccsbcs.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i
+
+Middlewares/Third_Party/FatFs/src/option/ccsbcs.s: Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/option/ccsbcs.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s
+
 Middlewares/Third_Party/FatFs/src/option/syscall.obj: Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.obj
 
@@ -4517,6 +4541,9 @@ help:
 	@echo ... Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj
 	@echo ... Middlewares/Third_Party/FatFs/src/ff_gen_drv.i
 	@echo ... Middlewares/Third_Party/FatFs/src/ff_gen_drv.s
+	@echo ... Middlewares/Third_Party/FatFs/src/option/ccsbcs.obj
+	@echo ... Middlewares/Third_Party/FatFs/src/option/ccsbcs.i
+	@echo ... Middlewares/Third_Party/FatFs/src/option/ccsbcs.s
 	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.obj
 	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.i
 	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.s

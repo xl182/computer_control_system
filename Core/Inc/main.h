@@ -88,13 +88,13 @@ void Error_Handler(void);
 #define LCD_SCL_GPIO_Port GPIOB
 #define LCD_SDA_Pin GPIO_PIN_15
 #define LCD_SDA_GPIO_Port GPIOB
-#define LCD_RES_Pin GPIO_PIN_8
+#define LCD_RES_Pin GPIO_PIN_9
 #define LCD_RES_GPIO_Port GPIOD
-#define LCD_DC_Pin GPIO_PIN_9
+#define LCD_DC_Pin GPIO_PIN_11
 #define LCD_DC_GPIO_Port GPIOD
-#define LCD_CS_Pin GPIO_PIN_10
+#define LCD_CS_Pin GPIO_PIN_13
 #define LCD_CS_GPIO_Port GPIOD
-#define LCD_BL_Pin GPIO_PIN_11
+#define LCD_BL_Pin GPIO_PIN_15
 #define LCD_BL_GPIO_Port GPIOD
 #define Red_Pin GPIO_PIN_6
 #define Red_GPIO_Port GPIOC

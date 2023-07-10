@@ -246,6 +246,8 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: \
  D:\STM32\Project\computer_control_system\Middlewares\Third_Party\FatFs\src\drivers/sd_diskio.h \
  D:\STM32\Project\computer_control_system\FATFS\Target/user_diskio.h \
  D:\STM32\Project\computer_control_system\Core\Inc/sdio.h \
+ D:\STM32\Project\computer_control_system\Middlewares\Third_Party\FatFs\src/diskio.h \
+ D:\STM32\Project\computer_control_system\FATFS\Target/bsp_driver_sd.h \
  D:\STM32\Project\computer_control_system\User\Inc/queue.h \
  D:\STM32\Project\computer_control_system\User\Inc/func.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\assert.h \

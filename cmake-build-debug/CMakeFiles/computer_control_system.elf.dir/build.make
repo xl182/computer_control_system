@@ -2223,10 +2223,24 @@ CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\computer_control_system\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c -o CMakeFiles\computer_control_system.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.s
 
+CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj: CMakeFiles/computer_control_system.elf.dir/flags.make
+CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj: D:/STM32/Project/computer_control_system/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c
+CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj: CMakeFiles/computer_control_system.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj -MF CMakeFiles\computer_control_system.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.obj.d -o CMakeFiles\computer_control_system.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.obj -c D:\STM32\Project\computer_control_system\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c
+
+CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\computer_control_system\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c > CMakeFiles\computer_control_system.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.i
+
+CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\computer_control_system\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c -o CMakeFiles\computer_control_system.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.s
+
 CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/computer_control_system.elf.dir/flags.make
 CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: D:/STM32/Project/computer_control_system/Middlewares/Third_Party/FatFs/src/option/syscall.c
 CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/computer_control_system.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj -MF CMakeFiles\computer_control_system.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj.d -o CMakeFiles\computer_control_system.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj -c D:\STM32\Project\computer_control_system\Middlewares\Third_Party\FatFs\src\option\syscall.c
 
 CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i: cmake_force
@@ -2240,7 +2254,7 @@ CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/opt
 CMakeFiles/computer_control_system.elf.dir/User/Src/at24c02.c.obj: CMakeFiles/computer_control_system.elf.dir/flags.make
 CMakeFiles/computer_control_system.elf.dir/User/Src/at24c02.c.obj: D:/STM32/Project/computer_control_system/User/Src/at24c02.c
 CMakeFiles/computer_control_system.elf.dir/User/Src/at24c02.c.obj: CMakeFiles/computer_control_system.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/at24c02.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/at24c02.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/computer_control_system.elf.dir/User/Src/at24c02.c.obj -MF CMakeFiles\computer_control_system.elf.dir\User\Src\at24c02.c.obj.d -o CMakeFiles\computer_control_system.elf.dir\User\Src\at24c02.c.obj -c D:\STM32\Project\computer_control_system\User\Src\at24c02.c
 
 CMakeFiles/computer_control_system.elf.dir/User/Src/at24c02.c.i: cmake_force
@@ -2254,7 +2268,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/at24c02.c.s: cmake_force
 CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj: CMakeFiles/computer_control_system.elf.dir/flags.make
 CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj: D:/STM32/Project/computer_control_system/User/Src/callback.c
 CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj: CMakeFiles/computer_control_system.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj -MF CMakeFiles\computer_control_system.elf.dir\User\Src\callback.c.obj.d -o CMakeFiles\computer_control_system.elf.dir\User\Src\callback.c.obj -c D:\STM32\Project\computer_control_system\User\Src\callback.c
 
 CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.i: cmake_force
@@ -2268,7 +2282,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.s: cmake_force
 CMakeFiles/computer_control_system.elf.dir/User/Src/font.c.obj: CMakeFiles/computer_control_system.elf.dir/flags.make
 CMakeFiles/computer_control_system.elf.dir/User/Src/font.c.obj: D:/STM32/Project/computer_control_system/User/Src/font.c
 CMakeFiles/computer_control_system.elf.dir/User/Src/font.c.obj: CMakeFiles/computer_control_system.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/font.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/computer_control_system.elf.dir/User/Src/font.c.obj -MF CMakeFiles\computer_control_system.elf.dir\User\Src\font.c.obj.d -o CMakeFiles\computer_control_system.elf.dir\User\Src\font.c.obj -c D:\STM32\Project\computer_control_system\User\Src\font.c
 
 CMakeFiles/computer_control_system.elf.dir/User/Src/font.c.i: cmake_force
@@ -2282,7 +2296,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/font.c.s: cmake_force
 CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj: CMakeFiles/computer_control_system.elf.dir/flags.make
 CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj: D:/STM32/Project/computer_control_system/User/Src/func.c
 CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj: CMakeFiles/computer_control_system.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.obj -MF CMakeFiles\computer_control_system.elf.dir\User\Src\func.c.obj.d -o CMakeFiles\computer_control_system.elf.dir\User\Src\func.c.obj -c D:\STM32\Project\computer_control_system\User\Src\func.c
 
 CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.i: cmake_force
@@ -2296,7 +2310,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/func.c.s: cmake_force
 CMakeFiles/computer_control_system.elf.dir/User/Src/gui.c.obj: CMakeFiles/computer_control_system.elf.dir/flags.make
 CMakeFiles/computer_control_system.elf.dir/User/Src/gui.c.obj: D:/STM32/Project/computer_control_system/User/Src/gui.c
 CMakeFiles/computer_control_system.elf.dir/User/Src/gui.c.obj: CMakeFiles/computer_control_system.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/gui.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/gui.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/computer_control_system.elf.dir/User/Src/gui.c.obj -MF CMakeFiles\computer_control_system.elf.dir\User\Src\gui.c.obj.d -o CMakeFiles\computer_control_system.elf.dir\User\Src\gui.c.obj -c D:\STM32\Project\computer_control_system\User\Src\gui.c
 
 CMakeFiles/computer_control_system.elf.dir/User/Src/gui.c.i: cmake_force
@@ -2310,7 +2324,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/gui.c.s: cmake_force
 CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj: CMakeFiles/computer_control_system.elf.dir/flags.make
 CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj: D:/STM32/Project/computer_control_system/User/Src/lcd.c
 CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj: CMakeFiles/computer_control_system.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj -MF CMakeFiles\computer_control_system.elf.dir\User\Src\lcd.c.obj.d -o CMakeFiles\computer_control_system.elf.dir\User\Src\lcd.c.obj -c D:\STM32\Project\computer_control_system\User\Src\lcd.c
 
 CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.i: cmake_force
@@ -2324,7 +2338,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.s: cmake_force
 CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj: CMakeFiles/computer_control_system.elf.dir/flags.make
 CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj: D:/STM32/Project/computer_control_system/User/Src/pid.c
 CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj: CMakeFiles/computer_control_system.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj -MF CMakeFiles\computer_control_system.elf.dir\User\Src\pid.c.obj.d -o CMakeFiles\computer_control_system.elf.dir\User\Src\pid.c.obj -c D:\STM32\Project\computer_control_system\User\Src\pid.c
 
 CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.i: cmake_force
@@ -2338,7 +2352,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.s: cmake_force
 CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj: CMakeFiles/computer_control_system.elf.dir/flags.make
 CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj: D:/STM32/Project/computer_control_system/User/Src/queue.c
 CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj: CMakeFiles/computer_control_system.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj -MF CMakeFiles\computer_control_system.elf.dir\User\Src\queue.c.obj.d -o CMakeFiles\computer_control_system.elf.dir\User\Src\queue.c.obj -c D:\STM32\Project\computer_control_system\User\Src\queue.c
 
 CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.i: cmake_force
@@ -2352,7 +2366,7 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.s: cmake_force
 CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: CMakeFiles/computer_control_system.elf.dir/flags.make
 CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: D:/STM32/Project/computer_control_system/User/Src/user.c
 CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: CMakeFiles/computer_control_system.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj -MF CMakeFiles\computer_control_system.elf.dir\User\Src\user.c.obj.d -o CMakeFiles\computer_control_system.elf.dir\User\Src\user.c.obj -c D:\STM32\Project\computer_control_system\User\Src\user.c
 
 CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.i: cmake_force
@@ -2519,6 +2533,7 @@ computer_control_system_elf_OBJECTS = \
 "CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj" \
 "CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj" \
 "CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj" \
+"CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj" \
 "CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj" \
 "CMakeFiles/computer_control_system.elf.dir/User/Src/at24c02.c.obj" \
 "CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj" \
@@ -2687,6 +2702,7 @@ computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/Middlewa
 computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj
 computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj
 computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
 computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
 computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/User/Src/at24c02.c.obj
 computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/User/Src/callback.c.obj
@@ -2700,7 +2716,7 @@ computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/User/Src
 computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/build.make
 computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/objects1.rsp
 computer_control_system.elf: CMakeFiles/computer_control_system.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Linking C executable computer_control_system.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\STM32\Project\computer_control_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Linking C executable computer_control_system.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\computer_control_system.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32/Project/computer_control_system/cmake-build-debug/computer_control_system.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32/Project/computer_control_system/cmake-build-debug/computer_control_system.bin"
