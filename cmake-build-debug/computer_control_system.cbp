@@ -37,10 +37,17 @@
 					<Add directory="D:/STM32/Project/computer_control_system/Middlewares/Third_Party/FatFs/src"/>
 					<Add directory="D:/STM32/Project/computer_control_system/Middlewares/Third_Party/FatFs/src/drivers"/>
 					<Add directory="D:/STM32/Project/computer_control_system/User/Inc"/>
+					<Add directory="D:/STM32/Project/computer_control_system/."/>
 					<Add directory="D:/STM32/Project/computer_control_system/LVGL"/>
 					<Add directory="D:/STM32/Project/computer_control_system/LVGL/porting"/>
+					<Add directory="D:/STM32/Project/computer_control_system/LVGL/src"/>
+					<Add directory="D:/STM32/Project/computer_control_system/LVGL/src/lv_font"/>
 					<Add directory="D:/STM32/Project/computer_control_system/FATFS/Target"/>
 					<Add directory="D:/STM32/Project/computer_control_system/FATFS/App"/>
+					<Add directory="D:/STM32/Project/computer_control_system/gui_guider/generated"/>
+					<Add directory="D:/STM32/Project/computer_control_system/gui_guider/custom"/>
+					<Add directory="D:/STM32/Project/computer_control_system/gui_guider/generated/guider_fonts"/>
+					<Add directory="D:/STM32/Project/computer_control_system/gui_guider/generated/guider_customer_fonts"/>
 					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -75,10 +82,17 @@
 					<Add directory="D:/STM32/Project/computer_control_system/Middlewares/Third_Party/FatFs/src"/>
 					<Add directory="D:/STM32/Project/computer_control_system/Middlewares/Third_Party/FatFs/src/drivers"/>
 					<Add directory="D:/STM32/Project/computer_control_system/User/Inc"/>
+					<Add directory="D:/STM32/Project/computer_control_system/."/>
 					<Add directory="D:/STM32/Project/computer_control_system/LVGL"/>
 					<Add directory="D:/STM32/Project/computer_control_system/LVGL/porting"/>
+					<Add directory="D:/STM32/Project/computer_control_system/LVGL/src"/>
+					<Add directory="D:/STM32/Project/computer_control_system/LVGL/src/lv_font"/>
 					<Add directory="D:/STM32/Project/computer_control_system/FATFS/Target"/>
 					<Add directory="D:/STM32/Project/computer_control_system/FATFS/App"/>
+					<Add directory="D:/STM32/Project/computer_control_system/gui_guider/generated"/>
+					<Add directory="D:/STM32/Project/computer_control_system/gui_guider/custom"/>
+					<Add directory="D:/STM32/Project/computer_control_system/gui_guider/generated/guider_fonts"/>
+					<Add directory="D:/STM32/Project/computer_control_system/gui_guider/generated/guider_customer_fonts"/>
 					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -472,6 +486,12 @@
 			<Option target="computer_control_system.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/LVGL/porting/lv_port_disp.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/LVGL/porting/lv_port_fs.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/LVGL/porting/lv_port_fs.h">
 			<Option target="computer_control_system.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/LVGL/src/lv_api_map.h">
@@ -1206,7 +1226,64 @@
 		<Unit filename="D:/STM32/Project/computer_control_system/User/Src/queue.c">
 			<Option target="computer_control_system.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/User/Src/sd_test.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/User/Src/user.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/custom/custom.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/custom/custom.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/custom/custom.mk">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/events_init.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/events_init.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/generated.mk">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/gui_guider.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/gui_guider.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/guider_customer_fonts/guider_customer_fonts.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/guider_customer_fonts/guider_customer_fonts.mk">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/guider_fonts/guider_fonts.h">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/guider_fonts/guider_fonts.mk">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/images/images.mk">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/setup_scr_chart.c">
+			<Option target="computer_control_system.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/computer_control_system/gui_guider/generated/setup_scr_screen.c">
 			<Option target="computer_control_system.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/computer_control_system/CMakeLists.txt">

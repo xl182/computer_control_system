@@ -1048,6 +1048,30 @@ LVGL/porting/lv_port_disp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/LVGL/porting/lv_port_disp.c.s
 .PHONY : LVGL/porting/lv_port_disp.c.s
 
+LVGL/porting/lv_port_fs.obj: LVGL/porting/lv_port_fs.c.obj
+.PHONY : LVGL/porting/lv_port_fs.obj
+
+# target to build an object file
+LVGL/porting/lv_port_fs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/LVGL/porting/lv_port_fs.c.obj
+.PHONY : LVGL/porting/lv_port_fs.c.obj
+
+LVGL/porting/lv_port_fs.i: LVGL/porting/lv_port_fs.c.i
+.PHONY : LVGL/porting/lv_port_fs.i
+
+# target to preprocess a source file
+LVGL/porting/lv_port_fs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/LVGL/porting/lv_port_fs.c.i
+.PHONY : LVGL/porting/lv_port_fs.c.i
+
+LVGL/porting/lv_port_fs.s: LVGL/porting/lv_port_fs.c.s
+.PHONY : LVGL/porting/lv_port_fs.s
+
+# target to generate assembly for a file
+LVGL/porting/lv_port_fs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/LVGL/porting/lv_port_fs.c.s
+.PHONY : LVGL/porting/lv_port_fs.c.s
+
 LVGL/src/lv_core/lv_disp.obj: LVGL/src/lv_core/lv_disp.c.obj
 .PHONY : LVGL/src/lv_core/lv_disp.obj
 
@@ -4048,6 +4072,30 @@ User/Src/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.s
 .PHONY : User/Src/queue.c.s
 
+User/Src/sd_test.obj: User/Src/sd_test.c.obj
+.PHONY : User/Src/sd_test.obj
+
+# target to build an object file
+User/Src/sd_test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/User/Src/sd_test.c.obj
+.PHONY : User/Src/sd_test.c.obj
+
+User/Src/sd_test.i: User/Src/sd_test.c.i
+.PHONY : User/Src/sd_test.i
+
+# target to preprocess a source file
+User/Src/sd_test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/User/Src/sd_test.c.i
+.PHONY : User/Src/sd_test.c.i
+
+User/Src/sd_test.s: User/Src/sd_test.c.s
+.PHONY : User/Src/sd_test.s
+
+# target to generate assembly for a file
+User/Src/sd_test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/User/Src/sd_test.c.s
+.PHONY : User/Src/sd_test.c.s
+
 User/Src/user.obj: User/Src/user.c.obj
 .PHONY : User/Src/user.obj
 
@@ -4071,6 +4119,198 @@ User/Src/user.s: User/Src/user.c.s
 User/Src/user.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.s
 .PHONY : User/Src/user.c.s
+
+gui_guider/custom/custom.obj: gui_guider/custom/custom.c.obj
+.PHONY : gui_guider/custom/custom.obj
+
+# target to build an object file
+gui_guider/custom/custom.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/custom/custom.c.obj
+.PHONY : gui_guider/custom/custom.c.obj
+
+gui_guider/custom/custom.i: gui_guider/custom/custom.c.i
+.PHONY : gui_guider/custom/custom.i
+
+# target to preprocess a source file
+gui_guider/custom/custom.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/custom/custom.c.i
+.PHONY : gui_guider/custom/custom.c.i
+
+gui_guider/custom/custom.s: gui_guider/custom/custom.c.s
+.PHONY : gui_guider/custom/custom.s
+
+# target to generate assembly for a file
+gui_guider/custom/custom.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/custom/custom.c.s
+.PHONY : gui_guider/custom/custom.c.s
+
+gui_guider/generated/events_init.obj: gui_guider/generated/events_init.c.obj
+.PHONY : gui_guider/generated/events_init.obj
+
+# target to build an object file
+gui_guider/generated/events_init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/events_init.c.obj
+.PHONY : gui_guider/generated/events_init.c.obj
+
+gui_guider/generated/events_init.i: gui_guider/generated/events_init.c.i
+.PHONY : gui_guider/generated/events_init.i
+
+# target to preprocess a source file
+gui_guider/generated/events_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/events_init.c.i
+.PHONY : gui_guider/generated/events_init.c.i
+
+gui_guider/generated/events_init.s: gui_guider/generated/events_init.c.s
+.PHONY : gui_guider/generated/events_init.s
+
+# target to generate assembly for a file
+gui_guider/generated/events_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/events_init.c.s
+.PHONY : gui_guider/generated/events_init.c.s
+
+gui_guider/generated/gui_guider.obj: gui_guider/generated/gui_guider.c.obj
+.PHONY : gui_guider/generated/gui_guider.obj
+
+# target to build an object file
+gui_guider/generated/gui_guider.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/gui_guider.c.obj
+.PHONY : gui_guider/generated/gui_guider.c.obj
+
+gui_guider/generated/gui_guider.i: gui_guider/generated/gui_guider.c.i
+.PHONY : gui_guider/generated/gui_guider.i
+
+# target to preprocess a source file
+gui_guider/generated/gui_guider.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/gui_guider.c.i
+.PHONY : gui_guider/generated/gui_guider.c.i
+
+gui_guider/generated/gui_guider.s: gui_guider/generated/gui_guider.c.s
+.PHONY : gui_guider/generated/gui_guider.s
+
+# target to generate assembly for a file
+gui_guider/generated/gui_guider.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/gui_guider.c.s
+.PHONY : gui_guider/generated/gui_guider.c.s
+
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.obj: gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.obj
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.obj
+
+# target to build an object file
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.obj
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.obj
+
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.i: gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.i
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.i
+
+# target to preprocess a source file
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.i
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.i
+
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.s: gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.s
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.s
+
+# target to generate assembly for a file
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.s
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.s
+
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.obj: gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.obj
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.obj
+
+# target to build an object file
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.obj
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.obj
+
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.i: gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.i
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.i
+
+# target to preprocess a source file
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.i
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.i
+
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.s: gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.s
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.s
+
+# target to generate assembly for a file
+gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.s
+.PHONY : gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.s
+
+gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.obj: gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.obj
+.PHONY : gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.obj
+
+# target to build an object file
+gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.obj
+.PHONY : gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.obj
+
+gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.i: gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.i
+.PHONY : gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.i
+
+# target to preprocess a source file
+gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.i
+.PHONY : gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.i
+
+gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.s: gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.s
+.PHONY : gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.s
+
+# target to generate assembly for a file
+gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.s
+.PHONY : gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.s
+
+gui_guider/generated/setup_scr_chart.obj: gui_guider/generated/setup_scr_chart.c.obj
+.PHONY : gui_guider/generated/setup_scr_chart.obj
+
+# target to build an object file
+gui_guider/generated/setup_scr_chart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/setup_scr_chart.c.obj
+.PHONY : gui_guider/generated/setup_scr_chart.c.obj
+
+gui_guider/generated/setup_scr_chart.i: gui_guider/generated/setup_scr_chart.c.i
+.PHONY : gui_guider/generated/setup_scr_chart.i
+
+# target to preprocess a source file
+gui_guider/generated/setup_scr_chart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/setup_scr_chart.c.i
+.PHONY : gui_guider/generated/setup_scr_chart.c.i
+
+gui_guider/generated/setup_scr_chart.s: gui_guider/generated/setup_scr_chart.c.s
+.PHONY : gui_guider/generated/setup_scr_chart.s
+
+# target to generate assembly for a file
+gui_guider/generated/setup_scr_chart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/setup_scr_chart.c.s
+.PHONY : gui_guider/generated/setup_scr_chart.c.s
+
+gui_guider/generated/setup_scr_screen.obj: gui_guider/generated/setup_scr_screen.c.obj
+.PHONY : gui_guider/generated/setup_scr_screen.obj
+
+# target to build an object file
+gui_guider/generated/setup_scr_screen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/setup_scr_screen.c.obj
+.PHONY : gui_guider/generated/setup_scr_screen.c.obj
+
+gui_guider/generated/setup_scr_screen.i: gui_guider/generated/setup_scr_screen.c.i
+.PHONY : gui_guider/generated/setup_scr_screen.i
+
+# target to preprocess a source file
+gui_guider/generated/setup_scr_screen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/setup_scr_screen.c.i
+.PHONY : gui_guider/generated/setup_scr_screen.c.i
+
+gui_guider/generated/setup_scr_screen.s: gui_guider/generated/setup_scr_screen.c.s
+.PHONY : gui_guider/generated/setup_scr_screen.s
+
+# target to generate assembly for a file
+gui_guider/generated/setup_scr_screen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer_control_system.elf.dir\build.make CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/setup_scr_screen.c.s
+.PHONY : gui_guider/generated/setup_scr_screen.c.s
 
 # Help Target
 help:
@@ -4196,6 +4436,9 @@ help:
 	@echo ... LVGL/porting/lv_port_disp.obj
 	@echo ... LVGL/porting/lv_port_disp.i
 	@echo ... LVGL/porting/lv_port_disp.s
+	@echo ... LVGL/porting/lv_port_fs.obj
+	@echo ... LVGL/porting/lv_port_fs.i
+	@echo ... LVGL/porting/lv_port_fs.s
 	@echo ... LVGL/src/lv_core/lv_disp.obj
 	@echo ... LVGL/src/lv_core/lv_disp.i
 	@echo ... LVGL/src/lv_core/lv_disp.s
@@ -4571,9 +4814,36 @@ help:
 	@echo ... User/Src/queue.obj
 	@echo ... User/Src/queue.i
 	@echo ... User/Src/queue.s
+	@echo ... User/Src/sd_test.obj
+	@echo ... User/Src/sd_test.i
+	@echo ... User/Src/sd_test.s
 	@echo ... User/Src/user.obj
 	@echo ... User/Src/user.i
 	@echo ... User/Src/user.s
+	@echo ... gui_guider/custom/custom.obj
+	@echo ... gui_guider/custom/custom.i
+	@echo ... gui_guider/custom/custom.s
+	@echo ... gui_guider/generated/events_init.obj
+	@echo ... gui_guider/generated/events_init.i
+	@echo ... gui_guider/generated/events_init.s
+	@echo ... gui_guider/generated/gui_guider.obj
+	@echo ... gui_guider/generated/gui_guider.i
+	@echo ... gui_guider/generated/gui_guider.s
+	@echo ... gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.obj
+	@echo ... gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.i
+	@echo ... gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.s
+	@echo ... gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.obj
+	@echo ... gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.i
+	@echo ... gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.s
+	@echo ... gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.obj
+	@echo ... gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.i
+	@echo ... gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.s
+	@echo ... gui_guider/generated/setup_scr_chart.obj
+	@echo ... gui_guider/generated/setup_scr_chart.i
+	@echo ... gui_guider/generated/setup_scr_chart.s
+	@echo ... gui_guider/generated/setup_scr_screen.obj
+	@echo ... gui_guider/generated/setup_scr_screen.i
+	@echo ... gui_guider/generated/setup_scr_screen.s
 .PHONY : help
 
 

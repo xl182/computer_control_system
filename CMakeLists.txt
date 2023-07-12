@@ -59,14 +59,24 @@ include_directories(Core/Inc
         Middlewares/Third_Party/FatFs/src
         Middlewares/Third_Party/FatFs/src/drivers
         User/Inc
+        .
         LVGL
         LVGL/porting
+        LVGL/src
+        LVGL/src/lv_font
         FATFS/Target
-        FATFS/App)
+        FATFS/App
+        gui_guider/generated
+        gui_guider/custom
+        gui_guider/generated/guider_fonts
+        gui_guider/generated/guider_customer_fonts
+        )
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DARM_MATH_CM3)
 
-file(GLOB_RECURSE SOURCES "User/*.*" "Library/*.*" "Core/*.*" "FATFS/*.*" "LVGL/*.*" "Middlewares/*.*" "Drivers/*.*")
+file(GLOB_RECURSE SOURCES
+        "User/*.*" "Library/*.*" "Core/*.*" "FATFS/*.*" "LVGL/*.*" "Middlewares/*.*" "Drivers/*.*"
+        "gui_guider/generated/*.*" "gui_guider/custom/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103VCTX_FLASH.ld)
 

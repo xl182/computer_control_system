@@ -33,12 +33,15 @@ void display() {
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM6) {
-        static int led_count = 0;
-        if (led_count >= 5) {
+        static int led_count = 1;
+        if (led_count % 5 == 0) {
             HAL_GPIO_TogglePin(led_GPIO_Port, led_Pin);
             led_count = 0;
         }
         led_count += 1;
+        if(led_count >= 100) {
+            led_count = 1;
+        }
         time_counter += 1;
     }
 

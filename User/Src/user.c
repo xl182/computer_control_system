@@ -13,7 +13,7 @@ void fatfs_test() {
     res = f_mount(&SDFatFS, SDPath, 1);
     printf("mount result :%d\r\n", res);
 
-    res = f_open(&SDFile, "file.txt", FA_WRITE| FA_CREATE_ALWAYS); // FA_CREATE_ALWAYS
+    res = f_open(&SDFile, "file.txt", FA_WRITE | FA_CREATE_ALWAYS); // FA_CREATE_ALWAYS
     if (res == 0) {
         printf("create success\r\n");
     } else {
@@ -67,14 +67,14 @@ void init() {
     SystemClock_Config();
     MX_GPIO_Init();
 
-    MX_SDIO_SD_Init();
-    MX_FATFS_Init();
-    MX_DMA_Init();
-
+    HAL_Delay(1000);
     MX_USART1_UART_Init();
     MX_USART3_UART_Init();
     HAL_UART_Receive_IT(&huart3, (uint8_t *) &tmp_data, 1);
 
+    MX_SDIO_SD_Init();
+    MX_FATFS_Init();
+    MX_DMA_Init();
     fatfs_test();
 
     MX_SPI2_Init();
@@ -84,7 +84,8 @@ void init() {
     LCD_Init();
     lv_port_disp_init();
     LCD_Display(true);
-    LCD_Fill(0, 0, LCD_WIDTH, LCD_HEIGHT, GRAYBLUE);
+    setup_ui(ui);
+    events_init(ui);
 
     MX_ADC1_Init();
     HAL_ADC_MspInit(&hadc1);
@@ -107,9 +108,19 @@ void init() {
 
 int main() {
     init();
-    gui_display();
+
+    setup_scr_chart(ui);
+    lv_chart_series_t *chart_chart_1_0 = lv_chart_add_series(ui->chart_chart_1, lv_color_make(0x00, 0x00, 0x00));
+    lv_chart_set_point_count(ui->chart_chart_1, 10);
 
     while (true) {
         lv_task_handler();
+        if (time_counter > 30) {
+            for (int i = 0; i < 10; i++) {
+                lv_chart_set_next(ui->chart_chart_1, chart_chart_1_0, i * 10 + random() % 10);
+            }
+            lv_scr_load(ui->chart);
+            time_counter = 0;
+        }
     }
 }

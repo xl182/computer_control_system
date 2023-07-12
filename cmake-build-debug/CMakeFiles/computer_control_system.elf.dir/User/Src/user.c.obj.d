@@ -80,24 +80,33 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: \
  D:\STM32\Project\computer_control_system\Core\Inc/usart.h \
  D:\STM32\Project\computer_control_system\Core\Inc/tim.h \
  D:\STM32\Project\computer_control_system\Core\Inc/spi.h \
+ D:\STM32\Project\computer_control_system\User\Inc/queue.h \
+ D:\STM32\Project\computer_control_system\User\Inc/func.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\assert.h \
+ D:\STM32\Project\computer_control_system\User\Inc/callback.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\stdlib.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\machine\stdlib.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\alloca.h \
  D:\STM32\Project\computer_control_system\User\Inc/lcd.h \
  D:\STM32\Project\computer_control_system\User\Inc/font.h \
- D:\STM32\Project\computer_control_system\LVGL/lvgl.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_misc/lv_log.h \
+ D:\STM32\Project\computer_control_system\User\Inc/gui.h \
+ D:\STM32\Project\computer_control_system\gui_guider\generated/gui_guider.h \
+ d:\stm32\project\computer_control_system\lvgl\lvgl.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_misc/lv_log.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_conf_internal.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_conf_kconfig.h \
  D:\STM32\Project\computer_control_system\LVGL/lv_conf.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_misc/lv_task.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_misc/lv_mem.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_misc/lv_log.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_misc/lv_types.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_misc/lv_ll.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_misc/lv_math.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_misc/lv_async.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_misc/lv_task.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_hal/lv_hal.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_hal/lv_hal_disp.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_hal/lv_hal.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_misc/lv_task.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_misc/lv_mem.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_misc/lv_log.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_misc/lv_types.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_misc/lv_ll.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_misc/lv_math.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_misc/lv_async.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_misc/lv_task.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_hal/lv_hal.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_hal/lv_hal_disp.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_hal/lv_hal.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_misc\lv_color.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_conf_internal.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_misc\lv_math.h \
@@ -106,12 +115,12 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: \
  d:\stm32\project\computer_control_system\lvgl\src\lv_misc\lv_mem.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_misc\lv_ll.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_misc\lv_task.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_hal/lv_hal_indev.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_hal/lv_hal_indev.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_conf_internal.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_hal/lv_hal_tick.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_core/lv_obj.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_hal/lv_hal_tick.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_core/lv_obj.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_conf_internal.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_core/lv_style.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_core/lv_style.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_font\lv_font.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_conf_internal.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_font\lv_symbol_def.h \
@@ -141,38 +150,38 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: \
  d:\stm32\project\computer_control_system\lvgl\src\lv_draw\lv_img_buf.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_misc\lv_fs.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_misc\lv_types.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_core/lv_obj_style_dec.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_core/lv_group.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_core/lv_obj.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_core/lv_indev.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_core/lv_obj_style_dec.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_core/lv_group.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_core/lv_obj.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_core/lv_indev.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_hal\lv_hal_indev.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_core\lv_group.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_core/lv_refr.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_core/lv_disp.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_themes/lv_theme.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_core/lv_refr.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_core/lv_disp.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_themes/lv_theme.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_conf_internal.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_core\lv_style.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_core\lv_obj.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_themes/lv_theme_empty.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_themes/lv_theme_template.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_themes/lv_theme_material.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_themes/lv_theme_mono.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_font/lv_font.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_font/lv_font_loader.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_font/lv_font_fmt_txt.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_font/lv_font.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_misc/lv_printf.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_btn.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_themes/lv_theme_empty.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_themes/lv_theme_template.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_themes/lv_theme_material.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_themes/lv_theme_mono.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_font/lv_font.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_font/lv_font_loader.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_font/lv_font_fmt_txt.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_font/lv_font.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_misc/lv_printf.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_btn.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_conf_internal.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_cont.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_cont.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_core\lv_obj.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_core\lv_indev.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_imgbtn.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_btn.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_imgbtn.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_btn.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_draw\lv_draw_img.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_img.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_img.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_misc\lv_fs.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_label.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_label.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_font\lv_font.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_font\lv_symbol_def.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_misc\lv_txt.h \
@@ -184,56 +193,60 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: \
  d:\stm32\project\computer_control_system\lvgl\src\lv_draw\lv_draw_triangle.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_draw\lv_draw_arc.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_draw\lv_draw_blend.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_label.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_line.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_page.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_label.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_line.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_page.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_misc\lv_anim.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_cont.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_list.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_page.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_img.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_chart.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_line.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_table.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_checkbox.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_cpicker.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_bar.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_slider.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_bar.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_led.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_btnmatrix.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_keyboard.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_btnmatrix.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_dropdown.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_cont.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_list.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_page.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_img.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_chart.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_line.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_table.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_checkbox.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_cpicker.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_bar.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_slider.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_bar.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_led.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_btnmatrix.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_keyboard.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_btnmatrix.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_dropdown.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_widgets\lv_page.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_widgets\lv_label.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_roller.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_textarea.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_canvas.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_roller.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_textarea.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_canvas.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_widgets\lv_img.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_win.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_tabview.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_win.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_tabview.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_widgets\lv_win.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_tileview.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_msgbox.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_objmask.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_tileview.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_msgbox.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_objmask.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_widgets\lv_cont.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_gauge.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_linemeter.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_linemeter.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_switch.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_arc.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_spinner.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_arc.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_calendar.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_widgets/lv_spinbox.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_gauge.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_linemeter.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_linemeter.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_switch.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_arc.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_spinner.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_arc.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_calendar.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_widgets/lv_spinbox.h \
  d:\stm32\project\computer_control_system\lvgl\src\lv_widgets\lv_textarea.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_draw/lv_img_cache.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_draw/lv_img_decoder.h \
- D:\STM32\Project\computer_control_system\LVGL/src/lv_api_map.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_draw/lv_img_cache.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_draw/lv_img_decoder.h \
+ d:\stm32\project\computer_control_system\lvgl\src/lv_api_map.h \
  d:\stm32\project\computer_control_system\lvgl\lvgl.h \
- D:\STM32\Project\computer_control_system\User\Inc/gui.h \
+ D:\STM32\Project\computer_control_system\gui_guider\generated\guider_fonts/guider_fonts.h \
+ D:\STM32\Project\computer_control_system\LVGL\src/lv_font/lv_font.h \
+ D:\STM32\Project\computer_control_system\LVGL/lvgl.h \
  D:\STM32\Project\computer_control_system\LVGL\porting/lv_port_disp.h \
+ D:\STM32\Project\computer_control_system\gui_guider\generated/events_init.h \
+ D:\STM32\Project\computer_control_system\gui_guider\generated/gui_guider.h \
  D:\STM32\Project\computer_control_system\Core\Inc/dma.h \
  D:\STM32\Project\computer_control_system\FATFS\App/fatfs.h \
  D:\STM32\Project\computer_control_system\Middlewares\Third_Party\FatFs\src/ff.h \
@@ -247,11 +260,4 @@ CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj: \
  D:\STM32\Project\computer_control_system\FATFS\Target/user_diskio.h \
  D:\STM32\Project\computer_control_system\Core\Inc/sdio.h \
  D:\STM32\Project\computer_control_system\Middlewares\Third_Party\FatFs\src/diskio.h \
- D:\STM32\Project\computer_control_system\FATFS\Target/bsp_driver_sd.h \
- D:\STM32\Project\computer_control_system\User\Inc/queue.h \
- D:\STM32\Project\computer_control_system\User\Inc/func.h \
- d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\assert.h \
- D:\STM32\Project\computer_control_system\User\Inc/callback.h \
- d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\stdlib.h \
- d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\machine\stdlib.h \
- d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\alloca.h
+ D:\STM32\Project\computer_control_system\FATFS\Target/bsp_driver_sd.h

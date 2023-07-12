@@ -88,4 +88,7 @@ LCD_Chinese(u32 x, u32 y, u8 index, u8 size, u16 fColor, u16 bColor);  // 显示
 void
 LCD_Chinese32ForFile(u32 x, u32 y, u8 index, u16 fColor, u16 bColor);  // 显示1个32号汉字；左上角坐标x, 左上角坐标y, 字库数据在缓存中的位置，字色，底色
 //void LCD_GUI(void);
+
+void setCursor(u16 xStart, u16 yStart, u16 xEnd, u16 yEnd);
+void sendShort(u16 data);
 #endif  

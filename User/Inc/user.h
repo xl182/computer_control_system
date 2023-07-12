@@ -17,20 +17,24 @@
 #include "usart.h"
 #include "tim.h"
 #include "spi.h"
+
+#include "queue.h"
+#include "func.h"
+#include "callback.h"
+
 #include "lcd.h"
 #include "lvgl.h"
+#include "lv_port_disp.h"
 #include "gui.h"
-#include "dma.h"
+#include "gui_guider.h"
+#include "events_init.h"
 
+#include "dma.h"
 #include "fatfs.h"
 #include "sdio.h"
 #include "ff.h"
 #include "diskio.h"
 #include "bsp_driver_sd.h"
-
-#include "queue.h"
-#include "func.h"
-#include "callback.h"
 
 #ifdef __GNUC__
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)

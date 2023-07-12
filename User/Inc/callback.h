@@ -18,5 +18,6 @@
 #include "lvgl.h"
 
 void display();
+extern int time_counter;
 
 #endif //COMPUTER_CONTROL_SYSTEM_CALLBACK_H

@@ -31,10 +31,17 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/STM32/Project/computer_control_system/Middlewares/Third_Party/FatFs/src"
   "D:/STM32/Project/computer_control_system/Middlewares/Third_Party/FatFs/src/drivers"
   "D:/STM32/Project/computer_control_system/User/Inc"
+  "D:/STM32/Project/computer_control_system/."
   "D:/STM32/Project/computer_control_system/LVGL"
   "D:/STM32/Project/computer_control_system/LVGL/porting"
+  "D:/STM32/Project/computer_control_system/LVGL/src"
+  "D:/STM32/Project/computer_control_system/LVGL/src/lv_font"
   "D:/STM32/Project/computer_control_system/FATFS/Target"
   "D:/STM32/Project/computer_control_system/FATFS/App"
+  "D:/STM32/Project/computer_control_system/gui_guider/generated"
+  "D:/STM32/Project/computer_control_system/gui_guider/custom"
+  "D:/STM32/Project/computer_control_system/gui_guider/generated/guider_fonts"
+  "D:/STM32/Project/computer_control_system/gui_guider/generated/guider_customer_fonts"
   )
 
 # The set of dependency files which are needed:
@@ -77,6 +84,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/STM32/Project/computer_control_system/FATFS/Target/bsp_driver_sd.c" "CMakeFiles/computer_control_system.elf.dir/FATFS/Target/bsp_driver_sd.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/FATFS/Target/bsp_driver_sd.c.obj.d"
   "D:/STM32/Project/computer_control_system/FATFS/Target/user_diskio.c" "CMakeFiles/computer_control_system.elf.dir/FATFS/Target/user_diskio.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/FATFS/Target/user_diskio.c.obj.d"
   "D:/STM32/Project/computer_control_system/LVGL/porting/lv_port_disp.c" "CMakeFiles/computer_control_system.elf.dir/LVGL/porting/lv_port_disp.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/LVGL/porting/lv_port_disp.c.obj.d"
+  "D:/STM32/Project/computer_control_system/LVGL/porting/lv_port_fs.c" "CMakeFiles/computer_control_system.elf.dir/LVGL/porting/lv_port_fs.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/LVGL/porting/lv_port_fs.c.obj.d"
   "D:/STM32/Project/computer_control_system/LVGL/src/lv_core/lv_disp.c" "CMakeFiles/computer_control_system.elf.dir/LVGL/src/lv_core/lv_disp.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/LVGL/src/lv_core/lv_disp.c.obj.d"
   "D:/STM32/Project/computer_control_system/LVGL/src/lv_core/lv_group.c" "CMakeFiles/computer_control_system.elf.dir/LVGL/src/lv_core/lv_group.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/LVGL/src/lv_core/lv_group.c.obj.d"
   "D:/STM32/Project/computer_control_system/LVGL/src/lv_core/lv_indev.c" "CMakeFiles/computer_control_system.elf.dir/LVGL/src/lv_core/lv_indev.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/LVGL/src/lv_core/lv_indev.c.obj.d"
@@ -202,7 +210,16 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/STM32/Project/computer_control_system/User/Src/lcd.c" "CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/User/Src/lcd.c.obj.d"
   "D:/STM32/Project/computer_control_system/User/Src/pid.c" "CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/User/Src/pid.c.obj.d"
   "D:/STM32/Project/computer_control_system/User/Src/queue.c" "CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/User/Src/queue.c.obj.d"
+  "D:/STM32/Project/computer_control_system/User/Src/sd_test.c" "CMakeFiles/computer_control_system.elf.dir/User/Src/sd_test.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/User/Src/sd_test.c.obj.d"
   "D:/STM32/Project/computer_control_system/User/Src/user.c" "CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/User/Src/user.c.obj.d"
+  "D:/STM32/Project/computer_control_system/gui_guider/custom/custom.c" "CMakeFiles/computer_control_system.elf.dir/gui_guider/custom/custom.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/gui_guider/custom/custom.c.obj.d"
+  "D:/STM32/Project/computer_control_system/gui_guider/generated/events_init.c" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/events_init.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/events_init.c.obj.d"
+  "D:/STM32/Project/computer_control_system/gui_guider/generated/gui_guider.c" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/gui_guider.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/gui_guider.c.obj.d"
+  "D:/STM32/Project/computer_control_system/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_10.c.obj.d"
+  "D:/STM32/Project/computer_control_system/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/guider_fonts/lv_font_Amiko_Regular_12.c.obj.d"
+  "D:/STM32/Project/computer_control_system/gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/images/_a63dc3111e2704383e90b769adfe49be_alpha_110x73.c.obj.d"
+  "D:/STM32/Project/computer_control_system/gui_guider/generated/setup_scr_chart.c" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/setup_scr_chart.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/setup_scr_chart.c.obj.d"
+  "D:/STM32/Project/computer_control_system/gui_guider/generated/setup_scr_screen.c" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/setup_scr_screen.c.obj" "gcc" "CMakeFiles/computer_control_system.elf.dir/gui_guider/generated/setup_scr_screen.c.obj.d"
   )
 
 # Targets to which this target links.

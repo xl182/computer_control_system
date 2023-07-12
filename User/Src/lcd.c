@@ -325,13 +325,13 @@ void setCursor(u16 xStart, u16 yStart, u16 xEnd, u16 yEnd) {
 *************************************************/
 void drawPoint(u16 x, u16 y, u16 color) {
 //    static uint8_t map[LCD_HEIGHT][LCD_WIDTH << 1] = {0};
-    uint8_t index = 0;
-    for (uint8_t i = 0; i < color_len; i++) {
-        if (colors[i] == color) {
-            index = i;
-            break;
-        }
-    }
+//    uint8_t index = 0;
+//    for (uint8_t i = 0; i < color_len; i++) {
+//        if (colors[i] == color) {
+//            index = i;
+//            break;
+//        }
+//    }
     // 前四位保存第一个，后四位保存第二个
 //    if (map[x][y / 2 + y % 2] << 4 != index) {
 //        map[x][y / 2] = (index << + y % 2) + map[x][y / 2] >> 4;
